@@ -88,9 +88,14 @@ The endpoint should
 I've implemented a comprehensive document classification system that combines multiple approaches to accurately identify document types and extract years. Here's how it works:
 
 
+## How to test it
+1. Get the requirements from the requirements.txt file
+2. Get a openai api_key and add it to the .env file
+3. Get a google cloud api_key and add it to the .env file: set up a processor for Identity Document Proofing and get the processor details
+4. Run solution_2_server.py
+5. Run test_server.py
 
-
-
+- Mabye later i will spin up a vercel app and deploy it there so in can be used by anyone.
 
 ## Classification Methods
 
