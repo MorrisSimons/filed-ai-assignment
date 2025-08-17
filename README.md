@@ -149,3 +149,13 @@ The solution includes a comprehensive test suite (`test_server.py`) that:
 - ✅ **handwritten.pdf** → "Handwritten Notes"
 - ✅ **idcard.pdf** → "ID Card"
 - ✅ **Morris_Simons_CV_EN.pdf** → "OTHER"
+
+
+
+### General notes
+
+- for the tax documents i like the solution, you can mix around with the details to make it better.
+
+- for the ID card you can use a deeplearning model or mabye azure document intelligence api for ID to check if valid or not.
+
+- If i understood the assigment correctly the handwritten check is what we wanted and not to check if its a receipt or invoice etc.
