@@ -4,4 +4,4 @@ __pycache__
 testdata
 scratch
 
-*.env
+*.envfiled-venv/
