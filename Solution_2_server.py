@@ -410,13 +410,25 @@ def handwritten_check(pdf_path: str) -> Optional[str]:
             print("OpenAI API key not found in environment variables")
             return None
             
-        # Convert PDF to image (first page only for quick check)
-        images = convert_from_path(pdf_path, first_page=1, last_page=1) # could be a problem????; just one page
-        if not images:
+        # Convert PDF to image using PyMuPDF (first page only for quick check)
+        doc = fitz.open(pdf_path)
+        if doc.page_count == 0:
+            doc.close()
+            return None
+            
+        page = doc.load_page(0)  # Load first page (index 0)
+        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))  # Higher resolution for better OCR
+        
+        # Convert PyMuPDF pixmap to PIL Image
+        img_data = pix.tobytes("png")
+        img = Image.open(io.BytesIO(img_data))
+        
+        doc.close()
+        
+        if not img:
             return None
             
         # Convert image to base64
-        img = images[0]
         buffer = io.BytesIO()
         img.save(buffer, format='PNG')
         img_base64 = base64.b64encode(buffer.getvalue()).decode()
