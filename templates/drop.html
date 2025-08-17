@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Classification - Drag & Drop</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📄 Document Classification API</h1>
+            <p>Drag and drop your PDF files here to classify them</p>
+        </header>
+
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-content">
+                <div class="upload-icon">📁</div>
+                <h3>Drag & Drop PDF Files Here</h3>
+                <p>or click to browse</p>
+                <input type="file" id="fileInput" accept=".pdf" multiple style="display: none;">
+            </div>
+        </div>
+
+        <div class="file-list" id="fileList" style="display: none;">
+            <h3>Uploaded Files:</h3>
+            <div id="filesContainer"></div>
+        </div>
+
+        <div class="results-area" id="resultsArea" style="display: none;">
+            <h3>Classification Results:</h3>
+            <div id="resultsContainer"></div>
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Processing files...</p>
+        </div>
+
+        <div class="error-area" id="errorArea" style="display: none;">
+            <h3>Errors:</h3>
+            <div id="errorContainer"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/drop.js"></script>
+</body>
+</html>

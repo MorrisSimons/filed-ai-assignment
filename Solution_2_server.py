@@ -4,13 +4,16 @@ import os
 import shutil
 import tempfile
 import time
+import magic  # python-magic for content type validation
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from collections import defaultdict
 
 import fitz  # PyMuPDF
 from fastapi import FastAPI, File, HTTPException, UploadFile, Depends, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, HTMLResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
 from pdf2image import convert_from_path
 from PIL import Image
 
@@ -36,15 +39,62 @@ except ImportError:
 
 app = FastAPI(title="Document Classification API", version="1.0.0")
 
-# Rate limiting configuration - 100 requests per day
-RATE_LIMIT_REQUESTS = 100
-RATE_LIMIT_WINDOW = 86400  # 24 hours in seconds
+# Mount static files and templates
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
+
+# Security and rate limiting configuration
+MAX_FILE_SIZE = 3 * 1024 * 1024  # 3MB file size limit
+ALLOWED_MIME_TYPES = ["application/pdf"]
+RATE_LIMIT_REQUESTS = 100  # requests per 48 hours
+RATE_LIMIT_WINDOW = 172800  # 24 hours in seconds
+RATE_LIMIT_PER_FILE = 10  # max uploads of same file per 48 hours
+RATE_LIMIT_FILE_WINDOW = 172800  # 24 hours in seconds
 
 # In-memory storage for rate limiting (use Redis in production)
 request_counts = defaultdict(list)
+file_upload_counts = defaultdict(lambda: defaultdict(list))
+
+def validate_file_content(file_content: bytes, filename: str) -> bool:
+    """
+    Validate file content using magic numbers, not just file extension
+    Returns True if file is a valid PDF, False otherwise
+    """
+    try:
+        # Check file size
+        if len(file_content) > MAX_FILE_SIZE:
+            raise HTTPException(
+                status_code=413, 
+                detail=f"File too large. Maximum size is {MAX_FILE_SIZE // (1024*1024)}MB"
+            )
+        
+        # Check MIME type using magic numbers
+        mime_type = magic.from_buffer(file_content, mime=True)
+        if mime_type not in ALLOWED_MIME_TYPES:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"Invalid file type. Expected PDF, got {mime_type}. File: {filename}"
+            )
+        
+        # Additional PDF header validation
+        if not file_content.startswith(b'%PDF'):
+            raise HTTPException(
+                status_code=400, 
+                detail=f"Invalid PDF file. File does not contain valid PDF header. File: {filename}"
+            )
+        
+        return True
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=400, 
+            detail=f"Error validating file content: {str(e)}"
+        )
 
 def rate_limit_check(request: Request):
-    """Rate limiting middleware function"""
+    """Rate limiting middleware function for general requests"""
     client_ip = request.client.host
     current_time = time.time()
     
@@ -63,6 +113,32 @@ def rate_limit_check(request: Request):
     
     # Add current request
     request_counts[client_ip].append(current_time)
+    
+    return True
+
+def rate_limit_file_check(file_content: bytes, filename: str):
+    """Rate limiting per file to prevent rapid uploads of the same file"""
+    # Create a hash of the file content for tracking
+    import hashlib
+    file_hash = hashlib.md5(file_content).hexdigest()
+    
+    current_time = time.time()
+    
+    # Clean old uploads outside the window
+    file_upload_counts[file_hash] = [
+        upload_time for upload_time in file_upload_counts[file_hash]
+        if current_time - upload_time < RATE_LIMIT_FILE_WINDOW
+    ]
+    
+    # Check if this file has been uploaded too many times recently
+    if len(file_upload_counts[file_hash]) >= RATE_LIMIT_PER_FILE:
+        raise HTTPException(
+            status_code=429,
+            detail=f"Rate limit exceeded for this file. Maximum {RATE_LIMIT_PER_FILE} uploads of the same file per day."
+        )
+    
+    # Add current upload
+    file_upload_counts[file_hash].append(current_time)
     
     return True
 
@@ -409,13 +485,19 @@ async def classify_document_endpoint(
     if not file:
         raise HTTPException(status_code=400, detail="No file uploaded")
     
-    if not file.filename.lower().endswith('.pdf'):
-        raise HTTPException(status_code=400, detail="File must be a PDF")
-    
     try:
+        # Read file content for validation
+        file_content = await file.read()
+        
+        # Validate file content (size, MIME type, PDF header)
+        validate_file_content(file_content, file.filename)
+        
+        # Rate limit per file to prevent rapid uploads
+        rate_limit_file_check(file_content, file.filename)
+        
         # Create a temporary file to save the uploaded PDF
         with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as temp_file:
-            shutil.copyfileobj(file.file, temp_file)
+            temp_file.write(file_content)
             temp_path = temp_file.name
         
         # Classify the document
@@ -427,9 +509,13 @@ async def classify_document_endpoint(
         return {
             "document_type": document_type,
             "year": year,
-            "filename": file.filename
+            "filename": file.filename,
+            "file_size_bytes": len(file_content),
+            "file_size_mb": round(len(file_content) / (1024 * 1024), 2)
         }
         
+    except HTTPException:
+        raise
     except Exception as e:
         # Clean up temporary file if it exists
         if 'temp_path' in locals():
@@ -449,12 +535,25 @@ async def root(rate_limit: bool = Depends(rate_limit_check)):
         "version": "1.0.0",
         "endpoints": {
             "POST /classify": "Classify a PDF document and extract year",
+            "GET /drop": "Drag and drop file upload interface",
             "GET /docs": "API documentation (Swagger UI)"
         },
         "supported_document_types": [
             "1040", "W2", "1098", "1099", "ID Card", "Handwritten Notes", "OTHER"
-        ]
+        ],
+        "security_features": {
+            "max_file_size_mb": MAX_FILE_SIZE // (1024 * 1024),
+            "allowed_mime_types": ALLOWED_MIME_TYPES,
+            "rate_limit_requests_per_day": RATE_LIMIT_REQUESTS,
+            "rate_limit_file_uploads_per_day": RATE_LIMIT_PER_FILE,
+            "content_validation": "PDF header validation + MIME type checking"
+        }
     }
+
+@app.get("/drop", response_class=HTMLResponse)
+async def drop_interface(request: Request):
+    """Serve the drag-and-drop file upload interface"""
+    return templates.TemplateResponse("drop.html", {"request": request})
 
 
 
