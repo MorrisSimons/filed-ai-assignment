@@ -579,6 +579,130 @@ DOCUMENT: fw2
 221. 9,600
 
 ============================================================
+DOCUMENT: f1099div-2031
+============================================================
+
+  1. Form
+  2. 1099-DIV
+  3. (Rev. January 2024)
+  4. Dividends and
+  5. Distributions
+  6. Copy B
+  7. For Recipient
+  8. Department of the Treasury - Internal Revenue Service
+  9. This is important tax
+ 10. information and is
+ 11. being furnished to
+ 12. the IRS. If you are
+ 13. required to file a
+ 14. return, a negligence
+ 15. penalty or other
+ 16. sanction may be
+ 17. imposed on you if
+ 18. this income is taxable
+ 19. and the IRS
+ 20. determines that it has
+ 21. not been reported.
+ 22. OMB No. 1545-0110
+ 23. For calendar year
+ 24. CORRECTED (if checked)
+ 25. PAYER’S name, street address, city or town, state or province, country, ZIP
+ 26. or foreign postal code, and telephone no.
+ 27. PAYER’S TIN
+ 28. RECIPIENT’S TIN
+ 29. RECIPIENT’S name
+ 30. Street address (including apt. no.)
+ 31. City or town, state or province, country, and ZIP or foreign postal code
+ 32. Account number (see instructions)
+ 33. 1a
+ 34. Total ordinary dividends
+ 35. $
+ 36. 1b
+ 37. Qualified dividends
+ 38. $
+ 39. 2a
+ 40. Total capital gain distr.
+ 41. $
+ 42. 2b
+ 43. Unrecap. Sec. 1250 gain
+ 44. $
+ 45. 2c
+ 46. Section 1202 gain
+ 47. $
+ 48. 2d
+ 49. Collectibles (28%) gain
+ 50. $
+ 51. 2e
+ 52. Section 897 ordinary dividends
+ 53. $
+ 54. 2f
+ 55. Section 897 capital gain
+ 56. $
+ 57. 3
+ 58. Nondividend distributions
+ 59. $
+ 60. 4
+ 61. Federal income tax withheld
+ 62. $
+ 63. 5
+ 64. Section 199A dividends
+ 65. $
+ 66. 6
+ 67. Investment expenses
+ 68. $
+ 69. 7
+ 70. Foreign tax paid
+ 71. $
+ 72. 8
+ 73. Foreign country or U.S. possession
+ 74. 9
+ 75. Cash liquidation distributions
+ 76. $
+ 77. 10
+ 78. Noncash liquidation distributions
+ 79. $
+ 80. 11
+ 81. FATCA filing
+ 82. requirement
+ 83. 12
+ 84. Exempt-interest dividends
+ 85. $
+ 86. 13
+ 87. Specified private activity
+ 88. bond interest dividends
+ 89. $
+ 90. 14
+ 91. State
+ 92. 15
+ 93. State identification no.
+ 94. 16
+ 95. State tax withheld
+ 96. $
+ 97. $
+ 98. Form
+ 99. 1099-DIV
+100. (Rev. 1-2024)
+101. (keep for your records)
+102. www.irs.gov/Form1099DIV
+103. 2031
+104. Fidelity Investments
+105. 200 Seaport Boulevard, Boston, MA 02210
+106. (617) 563-7000
+107. 12-3456789
+108. 123-45-6789
+109. Jane Doe
+110. 456 Palm Avenue
+111. San Francisco, CA 94115
+112. 4200
+113. 3800
+114. 1500
+115. 400
+116. 150
+117. CA
+118. 987654321
+119. $150
+
+============================================================
 DOCUMENT: f1040--2022
 ============================================================
 
