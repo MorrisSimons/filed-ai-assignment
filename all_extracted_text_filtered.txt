@@ -1,0 +1,1010 @@
+
+============================================================
+DOCUMENT: f1098
+============================================================
+
+  1. CORRECTED (if checked)
+  2. Mortgage
+  3. Interest
+  4. Statement
+  5. OMB No. 1545-1380
+  6. Form
+  7. 1098
+  8. (Rev. January 2022)
+  9. For calendar year
+ 10. 20
+ 11. Copy B
+ 12. For Payer/
+ 13. Borrower
+ 14. The information in boxes 1
+ 15. through 9 and 11 is
+ 16. important tax information
+ 17. and is being furnished to
+ 18. the IRS. If you are required
+ 19. to file a return, a negligence
+ 20. penalty or other sanction
+ 21. may be imposed on you if
+ 22. the IRS determines
+ 23. that an underpayment of
+ 24. tax results because you
+ 25. overstated a deduction for
+ 26. this mortgage interest or for
+ 27. these points, reported in
+ 28. boxes 1 and 6; or because
+ 29. you didn’t report the refund
+ 30. of interest (box 4); or
+ 31. because you claimed a
+ 32. nondeductible item.
+ 33. RECIPIENT’S/LENDER’S name, street address, city or town, state or
+ 34. province, country, ZIP or foreign postal code, and telephone no.
+ 35. RECIPIENT’S/LENDER’S TIN
+ 36. PAYER’S/BORROWER’S TIN
+ 37. PAYER’S/BORROWER’S name
+ 38. Street address (including apt. no.)
+ 39. City or town, state or province, country, and ZIP or foreign postal code
+ 40. Account number (see instructions)
+ 41. *Caution:
+ 42. The amount shown may
+ 43. not be fully deductible by you.
+ 44. Limits based on the loan amount
+ 45. and the cost and value of the
+ 46. secured property may apply. Also,
+ 47. you may only deduct interest to the
+ 48. extent it was incurred by you,
+ 49. actually paid by you, and not
+ 50. reimbursed by another person.
+ 51. 1
+ 52. Mortgage interest received from payer(s)/borrower(s)*
+ 53. $
+ 54. 2
+ 55. Outstanding mortgage
+ 56. principal
+ 57. $
+ 58. 3
+ 59. Mortgage origination date
+ 60. 4
+ 61. Refund of overpaid
+ 62. interest
+ 63. $
+ 64. 5
+ 65. Mortgage insurance
+ 66. premiums
+ 67. $
+ 68. 6
+ 69. Points paid on purchase of principal residence
+ 70. $
+ 71. 7
+ 72. If address of property securing mortgage is the same
+ 73. as PAYER’S/BORROWER’S address, the box is checked, or
+ 74. the address or description is entered in box 8.
+ 75. 8
+ 76. Address or description of property securing mortgage
+ 77. 9
+ 78. Number of properties securing the
+ 79. mortgage
+ 80. 10
+ 81. Other
+ 82. 11
+ 83. Mortgage
+ 84. acquisition date
+ 85. Form
+ 86. 1098
+ 87. (Rev. 1-2022)
+ 88. (Keep for your records)
+ 89. www.irs.gov/Form1098
+ 90. Department of the Treasury - Internal Revenue Service
+ 91. 24
+ 92. Wells Fargo Bank
+ 93. 420 Montgomery Street, San Francisco, CA 94104
+ 94. (800) 869-3557
+ 95. 12-3456789
+ 96. 123-45-6789
+ 97. Jane A. Doe
+ 98. 456 Palm Avenue
+ 99. San Francisco, CA 94115
+100. 16500
+101. 420000
+102. 02/15/2018
+103. 2,000
+104. 456 Palm Avenue, San Francisco, CA 94115
+105. 1
+
+============================================================
+DOCUMENT: f1099int
+============================================================
+
+  1. Form
+  2. 1099-INT
+  3. (Rev. January 2024)
+  4. Interest
+  5. Income
+  6. Copy B
+  7. For Recipient
+  8. Department of the Treasury - Internal Revenue Service
+  9. This is important tax
+ 10. information and is
+ 11. being furnished to the
+ 12. IRS. If you are
+ 13. required to file a
+ 14. return, a negligence
+ 15. penalty or other
+ 16. sanction may be
+ 17. imposed on you if
+ 18. this income is
+ 19. taxable and the IRS
+ 20. determines that it has
+ 21. not been reported.
+ 22. OMB No. 1545-0112
+ 23. For calendar year
+ 24. CORRECTED (if checked)
+ 25. PAYER’S name, street address, city or town, state or province, country, ZIP
+ 26. or foreign postal code, and telephone no.
+ 27. PAYER’S TIN
+ 28. RECIPIENT’S TIN
+ 29. RECIPIENT’S name
+ 30. Street address (including apt. no.)
+ 31. City or town, state or province, country, and ZIP or foreign postal code
+ 32. FATCA filing
+ 33. requirement
+ 34. Account number (see instructions)
+ 35. Payer’s RTN (optional)
+ 36. 1
+ 37. Interest income
+ 38. $
+ 39. 2
+ 40. Early withdrawal penalty
+ 41. $
+ 42. 3
+ 43. Interest on U.S. Savings Bonds and Treasury obligations
+ 44. $
+ 45. 4
+ 46. Federal income tax withheld
+ 47. $
+ 48. 5
+ 49. Investment expenses
+ 50. $
+ 51. 6
+ 52. Foreign tax paid
+ 53. $
+ 54. 7
+ 55. Foreign country or U.S. territory
+ 56. 8
+ 57. Tax-exempt interest
+ 58. $
+ 59. 9
+ 60. Specified private activity bond
+ 61. interest
+ 62. $
+ 63. 10
+ 64. Market discount
+ 65. $
+ 66. 11
+ 67. Bond premium
+ 68. $
+ 69. 12
+ 70. Bond premium on Treasury obligations
+ 71. $
+ 72. 13
+ 73. Bond premium on tax-exempt bond
+ 74. $
+ 75. 14
+ 76. Tax-exempt and tax credit
+ 77. bond CUSIP no.
+ 78. 15
+ 79. State
+ 80. 16
+ 81. State identification no.
+ 82. 17
+ 83. State tax withheld
+ 84. $
+ 85. $
+ 86. Form
+ 87. 1099-INT
+ 88. (Rev. 1-2024)
+ 89. (keep for your records)
+ 90. www.irs.gov/Form1099INT
+ 91. Chase Bank
+ 92. 270 Park Avenue, New York, NY 10017
+ 93. (212) 270-6000
+ 94. 98-7654321
+ 95. 123-45-678
+ 96. Keith R Warner
+ 97. 447 ELM STREET
+ 98. MONTPELIER
+ 99. VT 05602
+100. 900
+101. 90
+102. 100
+103. VT
+104. 987654321
+105. 45
+
+============================================================
+DOCUMENT: f1099div
+============================================================
+
+  1. Form
+  2. 1099-DIV
+  3. (Rev. January 2024)
+  4. Dividends and
+  5. Distributions
+  6. Copy B
+  7. For Recipient
+  8. Department of the Treasury - Internal Revenue Service
+  9. This is important tax
+ 10. information and is
+ 11. being furnished to
+ 12. the IRS. If you are
+ 13. required to file a
+ 14. return, a negligence
+ 15. penalty or other
+ 16. sanction may be
+ 17. imposed on you if
+ 18. this income is taxable
+ 19. and the IRS
+ 20. determines that it has
+ 21. not been reported.
+ 22. OMB No. 1545-0110
+ 23. For calendar year
+ 24. CORRECTED (if checked)
+ 25. PAYER’S name, street address, city or town, state or province, country, ZIP
+ 26. or foreign postal code, and telephone no.
+ 27. PAYER’S TIN
+ 28. RECIPIENT’S TIN
+ 29. RECIPIENT’S name
+ 30. Street address (including apt. no.)
+ 31. City or town, state or province, country, and ZIP or foreign postal code
+ 32. Account number (see instructions)
+ 33. 1a
+ 34. Total ordinary dividends
+ 35. $
+ 36. 1b
+ 37. Qualified dividends
+ 38. $
+ 39. 2a
+ 40. Total capital gain distr.
+ 41. $
+ 42. 2b
+ 43. Unrecap. Sec. 1250 gain
+ 44. $
+ 45. 2c
+ 46. Section 1202 gain
+ 47. $
+ 48. 2d
+ 49. Collectibles (28%) gain
+ 50. $
+ 51. 2e
+ 52. Section 897 ordinary dividends
+ 53. $
+ 54. 2f
+ 55. Section 897 capital gain
+ 56. $
+ 57. 3
+ 58. Nondividend distributions
+ 59. $
+ 60. 4
+ 61. Federal income tax withheld
+ 62. $
+ 63. 5
+ 64. Section 199A dividends
+ 65. $
+ 66. 6
+ 67. Investment expenses
+ 68. $
+ 69. 7
+ 70. Foreign tax paid
+ 71. $
+ 72. 8
+ 73. Foreign country or U.S. possession
+ 74. 9
+ 75. Cash liquidation distributions
+ 76. $
+ 77. 10
+ 78. Noncash liquidation distributions
+ 79. $
+ 80. 11
+ 81. FATCA filing
+ 82. requirement
+ 83. 12
+ 84. Exempt-interest dividends
+ 85. $
+ 86. 13
+ 87. Specified private activity
+ 88. bond interest dividends
+ 89. $
+ 90. 14
+ 91. State
+ 92. 15
+ 93. State identification no.
+ 94. 16
+ 95. State tax withheld
+ 96. $
+ 97. $
+ 98. Form
+ 99. 1099-DIV
+100. (Rev. 1-2024)
+101. (keep for your records)
+102. www.irs.gov/Form1099DIV
+103. Fidelity Investments
+104. 200 Seaport Boulevard, Boston, MA 02210
+105. (617) 563-7000
+106. 12-3456789
+107. 123-45-6789
+108. Jane Doe
+109. 456 Palm Avenue
+110. San Francisco, CA 94115
+111. 4200
+112. 3800
+113. 1500
+114. 400
+115. 150
+116. CA
+117. 987654321
+118. $150
+
+============================================================
+DOCUMENT: handwritten
+============================================================
+
+
+============================================================
+DOCUMENT: idcard
+============================================================
+
+
+============================================================
+DOCUMENT: fw2
+============================================================
+
+  1. Instructions for Employee
+  2. (See also
+  3. Notice to
+  4. Employee
+  5. on the back of Copy B.)
+  6. Box 1.
+  7. Enter this amount on the wages line of your tax return.
+  8. Box 2.
+  9. Enter this amount on the federal income tax withheld
+ 10. line of your
+ 11. tax return.
+ 12. Box 5.
+ 13. You may be required to report this amount on Form 8959. See
+ 14. the Form 1040 instructions to determine if you are required to complete
+ 15. Form 8959.
+ 16. Box 6.
+ 17. This amount includes the 1.45% Medicare tax withheld on all
+ 18. Medicare wages and tips shown in box 5, as well as the 0.9% Additional
+ 19. Medicare Tax on any of those Medicare wages and tips above
+ 20. $200,000.
+ 21. Box 8.
+ 22. This amount is
+ 23. not
+ 24. included in box 1, 3, 5, or 7. For
+ 25. information
+ 26. on how to report tips on your tax return, see the Form 1040 instructions.
+ 27. You must file Form 4137 with your income tax return to report at least
+ 28. the allocated tip amount unless you can prove with adequate records
+ 29. that you received a smaller amount. If you have records that show the
+ 30. actual amount of tips you received, report that amount even if it is more
+ 31. or less than the allocated tips. Use Form 4137 to figure the social
+ 32. security and Medicare tax owed on tips you didn’t report to your
+ 33. employer. Enter this amount on the wages line of your tax return. By
+ 34. filing Form 4137, your social security tips will be credited to your social
+ 35. security record (used to figure your benefits).
+ 36. Box 10.
+ 37. This amount includes the total dependent care benefits that
+ 38. your employer paid to you or incurred on your behalf (including
+ 39. amounts
+ 40. from a section 125 (cafeteria) plan). Any amount over
+ 41. your employer’s
+ 42. plan limit is also included in box 1. See Form 2441.
+ 43. Box 11.
+ 44. This amount is (a) reported in box 1 if it is a distribution
+ 45. made to
+ 46. you from a nonqualified deferred compensation or nongovernmental
+ 47. section 457(b) plan, or (b) included in box 3 and/or box 5 if it is a prior
+ 48. year deferral under a nonqualified or section 457(b) plan that became
+ 49. taxable for social security and Medicare taxes this year because there is
+ 50. no longer a substantial risk of forfeiture of your right to the deferred
+ 51. amount. This box shouldn’t be used if you had a deferral and a
+ 52. distribution in the same calendar year. If you made a deferral and
+ 53. received a distribution in the same calendar year, and you are or will be
+ 54. age 62 by the end of the calendar year, your employer should file Form
+ 55. SSA-131, Employer Report of Special Wage Payments, with the Social
+ 56. Security Administration and give you a copy.
+ 57. Box 12.
+ 58. The following list explains the codes shown in box 12. You may
+ 59. need this information to complete your tax
+ 60. return. Elective deferrals
+ 61. (codes D, E, F, and S) and designated
+ 62. Roth contributions (codes AA,
+ 63. BB, and EE) under all plans are generally limited to a total of $23,000
+ 64. ($16,000 if you only have SIMPLE plans; $26,000 for section 403(b)
+ 65. plans if you qualify for the 15-year rule explained in Pub. 571). Deferrals
+ 66. under code G are limited to $23,000. Deferrals under code H are limited
+ 67. to $7,000.
+ 68. However, if you were at least age 50 in 2024, your employer may have
+ 69. allowed an additional deferral of up to $7,500 ($3,500 for section
+ 70. 401(k)(11) and 408(p) SIMPLE plans). This additional deferral amount is
+ 71. not subject to the overall limit on elective deferrals. For code G, the limit
+ 72. on elective deferrals may be higher for the last 3 years before you reach
+ 73. retirement age. Contact your plan administrator for more information.
+ 74. Amounts in excess of the overall elective deferral limit must be included
+ 75. in income. See the Form 1040 instructions.
+ 76. Note:
+ 77. If a year follows code D through H, S, Y, AA, BB, or EE, you
+ 78. made
+ 79. a make-up pension contribution for a prior year(s) when
+ 80. you were in
+ 81. military service. To figure whether you made excess
+ 82. deferrals, consider
+ 83. these amounts for the year shown, not the
+ 84. current year. If no year is
+ 85. shown, the contributions are for the
+ 86. current year.
+ 87. A—
+ 88. Uncollected social security or RRTA tax on tips. Include this
+ 89. tax on
+ 90. Form 1040 or 1040-SR. See the Form 1040 instructions.
+ 91. B—
+ 92. Uncollected Medicare tax on tips. Include this tax on Form
+ 93. 1040 or
+ 94. 1040-SR. See the Form 1040 instructions.
+ 95. C—
+ 96. Taxable cost of group-term life insurance over $50,000
+ 97. (included in
+ 98. boxes 1, 3 (up to the social security wage base), and 5)
+ 99. D—
+100. Elective deferrals to a section 401(k) cash or deferred
+101. arrangement.
+102. Also includes deferrals under a SIMPLE retirement
+103. account that is part
+104. of a section 401(k) arrangement.
+105. E—
+106. Elective deferrals under a section 403(b) salary reduction
+107. agreement
+108. (continued on back of Copy 2)
+109. a
+110. Employee’s social security number
+111. OMB No. 1545-0008
+112. This information is being furnished to the Internal Revenue Service. If you
+113. are required to file a tax return, a negligence penalty or other sanction
+114. may be imposed on you if this income is taxable and you fail to report it.
+115. b
+116. Employer identification number (EIN)
+117. c
+118. Employer’s name, address, and ZIP code
+119. d
+120. Control number
+121. e
+122. Employee’s first name and initial
+123. Last name
+124. Suff.
+125. f
+126. Employee’s address and ZIP code
+127. 1
+128. Wages, tips, other compensation
+129. 2
+130. Federal income tax withheld
+131. 3
+132. Social security wages
+133. 4
+134. Social security tax withheld
+135. 5
+136. Medicare wages and tips
+137. 6
+138. Medicare tax withheld
+139. 7
+140. Social security tips
+141. 8
+142. Allocated tips
+143. 9
+144. 10
+145. Dependent care benefits
+146. 11
+147. Nonqualified plans
+148. 12a
+149. See instructions for box 12
+150. C
+151. o
+152. d
+153. e
+154. 12b
+155. C
+156. o
+157. d
+158. e
+159. 12c
+160. C
+161. o
+162. d
+163. e
+164. 12d
+165. C
+166. o
+167. d
+168. e
+169. 13
+170. Statutory
+171. employee
+172. Retirement
+173. plan
+174. Third-party
+175. sick pay
+176. 14
+177. Other
+178. 15
+179. State
+180. Employer’s state ID number
+181. 16
+182. State wages, tips, etc.
+183. 17
+184. State income tax
+185. 18
+186. Local wages, tips, etc.
+187. 19
+188. Local income tax
+189. 20
+190. Locality name
+191. Form
+192. W-2
+193. Wage and Tax Statement
+194. 2024
+195. Department of the Treasury—Internal Revenue Service
+196. Copy C—For EMPLOYEE’S RECORDS
+197. (See
+198. Notice to Employee
+199. on the back of Copy B.)
+200. Safe, accurate,
+201. FAST!  Use
+202. 123456789
+203. 123456789
+204. Tech Innovators Inc.
+205. 123 Market Street, San Francisco, CA 94103
+206. Jane A.
+207. Doe
+208. 120000
+209. 18000
+210. 120000
+211. 7440
+212. 120000
+213. 1740
+214. 22
+215. 123123123
+216. 12
+217. asdasd
+218. CA
+219. 987654321
+220. 120,000
+221. 9,600
+
+============================================================
+DOCUMENT: f1040--2022
+============================================================
+
+  1. Form 1040 (2022)
+  2. Page
+  3. 2
+  4. Tax and
+  5. Credits
+  6. 16
+  7. Tax
+  8. (see instructions). Check if any from Form(s):
+  9. 1
+ 10. 8814
+ 11. 2
+ 12. 4972
+ 13. 3
+ 14. 16
+ 15. 17
+ 16. Amount from Schedule 2, line 3
+ 17. 17
+ 18. 18
+ 19. Add lines 16 and 17 .
+ 20. 18
+ 21. 19
+ 22. Child tax credit or credit for other dependents from Schedule 8812 .
+ 23. 19
+ 24. 20
+ 25. Amount from Schedule 3, line 8
+ 26. 20
+ 27. 21
+ 28. Add lines 19 and 20 .
+ 29. 21
+ 30. 22
+ 31. Subtract line 21 from line 18. If zero or less, enter -0- .
+ 32. 22
+ 33. 23
+ 34. Other taxes, including self-employment tax, from Schedule 2, line 21
+ 35. 23
+ 36. 24
+ 37. Add lines 22 and 23. This is your
+ 38. total tax
+ 39. 24
+ 40. Payments
+ 41. 25
+ 42. Federal income tax withheld from:
+ 43. a
+ 44. Form(s) W-2
+ 45. 25a
+ 46. b
+ 47. Form(s) 1099 .
+ 48. 25b
+ 49. c
+ 50. Other forms (see instructions) .
+ 51. 25c
+ 52. d
+ 53. Add lines 25a through 25c .
+ 54. 25d
+ 55. 26
+ 56. 2022 estimated tax payments and amount applied from 2021 return .
+ 57. 26
+ 58. If you have a
+ 59. qualifying child,
+ 60. attach Sch. EIC.
+ 61. 27
+ 62. Earned income credit (EIC) .
+ 63. 27
+ 64. 28
+ 65. Additional child tax credit from Schedule 8812
+ 66. 28
+ 67. 29
+ 68. American opportunity credit from Form 8863, line 8 .
+ 69. 29
+ 70. 30
+ 71. Reserved for future use .
+ 72. 30
+ 73. 31
+ 74. Amount from Schedule 3, line 15 .
+ 75. 31
+ 76. 32
+ 77. Add lines 27, 28, 29, and 31. These are your
+ 78. total other payments and refundable credits
+ 79. 32
+ 80. 33
+ 81. Add lines 25d, 26, and 32. These are your
+ 82. total payments
+ 83. 33
+ 84. Refund
+ 85. 34
+ 86. If line 33 is more than line 24, subtract line 24 from line 33. This is the amount you
+ 87. overpaid
+ 88. 34
+ 89. 35a
+ 90. Amount of line 34 you want
+ 91. refunded to you
+ 92. . If Form 8888 is attached, check here
+ 93. 35a
+ 94. Direct deposit?
+ 95. See instructions.
+ 96. b
+ 97. Routing number
+ 98. c
+ 99. Type:
+100. Checking
+101. Savings
+102. d
+103. Account number
+104. 36
+105. Amount of line 34 you want
+106. applied to your 2023 estimated tax
+107. 36
+108. Amount
+109. You Owe
+110. 37
+111. Subtract line 33 from line 24. This is the
+112. amount you owe
+113. For details on how to pay, go to
+114. www.irs.gov/Payments
+115. or see instructions .
+116. 37
+117. 38
+118. Estimated tax penalty (see instructions)
+119. 38
+120. Third Party
+121. Designee
+122. Do you want to allow another person to discuss this return with the IRS? See
+123. instructions
+124. Yes.
+125. Complete below.
+126. No
+127. Designee’s
+128. name
+129. Phone
+130. no.
+131. Personal identification
+132. number (PIN)
+133. Sign
+134. Here
+135. Joint return?
+136. See instructions.
+137. Keep a copy for
+138. your records.
+139. Under penalties of perjury, I declare that I have examined this return and accompanying schedules and statements, and to the best of my knowledge and
+140. belief, they are true, correct, and complete. Declaration of preparer (other than taxpayer) is based on all information of which preparer has any knowledge.
+141. Your signature
+142. Date
+143. Your occupation
+144. If the IRS sent you an Identity
+145. Protection PIN, enter it here
+146. (see inst.)
+147. Spouse’s signature. If a joint return,
+148. both
+149. must sign.
+150. Date
+151. Spouse’s occupation
+152. If the IRS sent your spouse an
+153. Identity Protection PIN, enter it here
+154. (see inst.)
+155. Phone no.
+156. Email address
+157. Paid
+158. Preparer
+159. Use Only
+160. Preparer’s name
+161. Preparer’s signature
+162. Date
+163. PTIN
+164. Check if:
+165. Self-employed
+166. Firm’s name
+167. Phone no.
+168. Firm’s address
+169. Firm’s EIN
+170. Go to
+171. www.irs.gov/Form1040
+172. for instructions and the latest information.
+173. Form
+174. 1040
+175. (2022)
+176. SignByMichael
+177. 8822
+178. 10500
+179. 400
+180. 10900
+181. 2078
+182. Michael
+183. Micahel CA CO
+184. 200, Sunnyvale, CA - 124000
+185. Form
+186. 1040
+187. 20
+188. 22
+189. U.S. Individual Income Tax Return
+190. Department of the Treasury—Internal Revenue Service
+191. OMB No. 1545-0074
+192. IRS Use Only—Do not write or staple in this space.
+193. Filing Status
+194. Check only
+195. one box.
+196. Single
+197. Married filing jointly
+198. Married filing separately (MFS)
+199. Head of household (HOH)
+200. Qualifying surviving
+201. spouse (QSS)
+202. If you checked the MFS box, enter the name of your spouse. If you checked the HOH or QSS box, enter the child’s name if the qualifying
+203. person is a child but not your dependent:
+204. Your first name and middle initial
+205. Last name
+206. Your social security number
+207. If joint return, spouse’s first name and middle initial
+208. Last name
+209. Spouse’s social security number
+210. Home address (number and street). If you have a P.O. box, see instructions.
+211. Apt. no.
+212. City, town, or post office. If you have a foreign address, also complete spaces below.
+213. State
+214. ZIP code
+215. Foreign country name
+216. Foreign province/state/county
+217. Foreign postal code
+218. Presidential Election Campaign
+219. Check here if you, or your
+220. spouse if filing jointly, want $3
+221. to go to this fund. Checking a
+222. box below will not change
+223. your tax or refund.
+224. You
+225. Spouse
+226. Digital
+227. Assets
+228. At any time during 2022, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell,
+229. exchange, gift, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.)
+230. Yes
+231. No
+232. Standard
+233. Deduction
+234. Someone can claim:
+235. You as a dependent
+236. Your spouse as a dependent
+237. Spouse itemizes on a separate return or you were a dual-status alien
+238. Age/Blindness
+239. You:
+240. Were born before January 2, 1958
+241. Are blind
+242. Spouse:
+243. Was born before January 2, 1958
+244. Is blind
+245. Dependents
+246. (see instructions):
+247. If more
+248. than four
+249. dependents,
+250. see instructions
+251. and check
+252. here .
+253. (2)
+254. Social security
+255. number
+256. (3)
+257. Relationship
+258. to you
+259. (4)
+260. Check the box if qualifies for (see instructions):
+261. (1)
+262. First name
+263. Last name
+264. Child tax credit
+265. Credit for other dependents
+266. Income
+267. Attach Form(s)
+268. W-2 here. Also
+269. attach Forms
+270. W-2G and
+271. 1099-R if tax
+272. was withheld.
+273. If you did not
+274. get a Form
+275. W-2, see
+276. instructions.
+277. 1 a
+278. Total amount from Form(s) W-2, box 1 (see instructions)
+279. 1a
+280. b
+281. Household employee wages not reported on Form(s) W-2 .
+282. 1b
+283. c
+284. Tip income not reported on line 1a (see instructions)
+285. 1c
+286. d
+287. Medicaid waiver payments not reported on Form(s) W-2 (see instructions)  .
+288. 1d
+289. e
+290. Taxable dependent care benefits from Form 2441, line 26
+291. 1e
+292. f
+293. Employer-provided adoption benefits from Form 8839, line 29
+294. 1f
+295. g
+296. Wages from Form 8919, line 6  .
+297. 1g
+298. h
+299. Other earned income (see instructions)  .
+300. 1h
+301. i
+302. Nontaxable combat pay election (see instructions)  .
+303. 1i
+304. z
+305. Add lines 1a through 1h
+306. 1z
+307. Attach Sch. B
+308. if required.
+309. 2a
+310. Tax-exempt interest .
+311. 2a
+312. b
+313. Taxable interest
+314. 2b
+315. 3a
+316. Qualified dividends .
+317. 3a
+318. b
+319. Ordinary dividends .
+320. 3b
+321. 4a
+322. IRA distributions .
+323. 4a
+324. b
+325. Taxable amount .
+326. 4b
+327. 5a
+328. Pensions and annuities .
+329. 5a
+330. b
+331. Taxable amount .
+332. 5b
+333. 6a
+334. Social security benefits .
+335. 6a
+336. b
+337. Taxable amount .
+338. 6b
+339. c
+340. If you elect to use the lump-sum election method, check here (see instructions)
+341. 7
+342. Capital gain or (loss). Attach Schedule D if required. If not required, check here
+343. 7
+344. 8
+345. Other income from Schedule 1, line 10
+346. 8
+347. 9
+348. Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7, and 8. This is your
+349. total income
+350. 9
+351. 10
+352. Adjustments to income from Schedule 1, line 26
+353. 10
+354. 11
+355. Subtract line 10 from line 9. This is your
+356. adjusted gross income
+357. 11
+358. Standard
+359. Deduction for—
+360. • Single or
+361. Married filing
+362. separately,
+363. $12,950
+364. •
+365. Married filing
+366. jointly or
+367. Qualifying
+368. surviving spouse,
+369. $25,900
+370. • Head of
+371. household,
+372. $19,400
+373. •
+374. If you checked
+375. any box under
+376. Standard
+377. Deduction
+378. ,
+379. see instructions.
+380. 12
+381. Standard deduction
+382. or
+383. itemized deductions
+384. (from Schedule A)
+385. 12
+386. 13
+387. Qualified business income deduction from Form 8995 or Form 8995-A .
+388. 13
+389. 14
+390. Add lines 12 and 13 .
+391. 14
+392. 15
+393. Subtract line 14 from line 11. If zero or less, enter -0-. This is your
+394. taxable income
+395. 15
+396. For Disclosure, Privacy Act, and Paperwork Reduction Act Notice, see separate instructions.
+397. Cat. No. 11320B
+398. Form
+399. 1040
+400. (2022
+401. )
+402. ✔
+403. Jane A
+404. Doe
+405. 1
+406. 2
+407. 3
+408. 4
+409. 5
+410. 6
+411. 7
+412. 8
+413. 9
+414. 456 Palm Avenue
+415. San Francisco, CA 94115
+416. 85000
+417. 100
+418. 900
+419. 3800
+420. 4200
+421. 1500
+422. 91700
+423. 2000
+424. 89700
+425. 13850
+426. 75850
