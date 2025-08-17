@@ -88,14 +88,31 @@ The endpoint should
 I've implemented a comprehensive document classification system that combines multiple approaches to accurately identify document types and extract years. Here's how it works:
 
 
-## How to test it
-1. Get the requirements from the requirements.txt file
-2. Get a openai api_key and add it to the .env file
-3. Get a google cloud api_key and add it to the .env file: set up a processor for Identity Document Proofing and get the processor details
-4. Run solution_2_server.py
-5. Run test_server.py
+## How to test it and setup
 
-- Mabye later i will spin up a vercel app and deploy it there so in can be used by anyone.
+1. Install the requirements from the `requirements.txt` file.
+2. Get an OpenAI API key and add it to a `.env` file as `OPENAI_API_KEY=your_key_here`.
+
+### Google Document AI Setup
+
+3. To use Google Document AI for ID card detection, you need:
+   - A Google Cloud account.
+   - Enable the [Document AI API](https://console.cloud.google.com/apis/library/documentai.googleapis.com).
+   - Create a Document AI processor (type: "ID Document Parser") in the [Google Cloud Console](https://console.cloud.google.com/ai/document-ai/processors).
+   - Download your service account JSON key and save it (e.g., as `google-credentials.json`).
+   - Add the following to your `.env` file:
+     ```
+     GOOGLE_APPLICATION_CREDENTIALS=google-credentials.json
+     GCP_PROJECT_ID=your-gcp-project-id
+     GCP_LOCATION=your-processor-location
+     GCP_PROCESSOR_ID=your-processor-id
+     ```
+   - Make sure the service account has the `Document AI API User` role.
+
+4. Run `solution_2_server.py`.
+5. Run `test_server.py` to test the endpoints with sample PDFs.
+
+- (Optional) In the future, the app may be deployed to Vercel for public use.
 
 ## Classification Methods
 
@@ -120,11 +137,12 @@ Here i went with Google Cloud document ai as it is fast and easy to use and very
 
 Positives
 - (Fast to deploy because I have it set up already from another project, only needed to create a new processor in GCP)
-- Good in accuracy
+- Good solution to see if its an ID card or not.
 
 Downsides
-- Not on prem
-- cost money
+- Not on prem so (privacy risks)
+- cost becuase its an api
+- Slow
 
 
 #### Handwritten strategy
@@ -169,4 +187,4 @@ The solution includes a comprehensive test suite (`test_server.py`) that:
 TODO:
 - [ ] Open a Vercel server and host it there, and add a rate limit
 - [ ] Rewrite the readme so it's much clearer and communicative
-- [ ] fix the prints in the notebook so it does not take 2 hours to scroll the GH repo.
+- [x] fix the prints in the notebook so it does not take 2 hours to scroll the GH repo.

@@ -125,8 +125,11 @@ def analyze_form_content(text_spans: List[Dict], lines: List[Dict]) -> Tuple[Opt
                                     break
                         if year:
                             break
-
-                    return "1098", year
+                    
+                    if year == "":
+                        return "1098", None
+                    else:
+                        return "1098", year
 
         elif text in ["Form 1099-INT", "Form 1099-DIV"]:
             if len(line["spans"]) == 2 and line["spans"][0]["text"] == "Form":
@@ -155,7 +158,10 @@ def analyze_form_content(text_spans: List[Dict], lines: List[Dict]) -> Tuple[Opt
                         if year:
                             break
 
-                    return "1099", year
+                    if year == "":
+                        return "1098", None
+                    else:
+                        return "1098", year
         
         elif text == "Form W-2":
             if len(line["spans"]) == 2 and line["spans"][0]["text"] == "Form" and line["spans"][1]["text"] == "W-2":
@@ -178,7 +184,10 @@ def analyze_form_content(text_spans: List[Dict], lines: List[Dict]) -> Tuple[Opt
                         if year:
                             break
 
-                    return "W2", year
+                    if year == "":
+                        return "1098", None
+                    else:
+                        return "1098", year
         
         elif text.startswith("Form 1040"):
             if len(line["spans"]) >= 2 and line["spans"][0]["text"] == "Form" and line["spans"][1]["text"] == "1040":
@@ -197,7 +206,10 @@ def analyze_form_content(text_spans: List[Dict], lines: List[Dict]) -> Tuple[Opt
                             if year_text.isdigit() and len(year_text) == 4 and year_text.startswith("20"):
                                 year = year_text
 
-                    return "1040", year
+                    if year == "":
+                        return "1098", None
+                    else:
+                        return "1098", year
     
     return None, None
 
