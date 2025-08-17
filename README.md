@@ -100,13 +100,13 @@ I've implemented a comprehensive document classification system that combines mu
 ## Classification Methods
 
 ### 1. Form-Based Classification (Primary Method)
-Uses **PyMuPDF** to extract text with detailed metadata including:
+Uses **PyMuPDF** to extract text with detailed metadata, including:
 - Font names and sizes
 - Text positioning (bounding boxes)
 - Text content and structure
 
 #### Tax documents strategy
-So for the tax documents we dont use any AI only mining the PDFs as these files are pretty standard and have text written in them. This is better than any AI model as this is 100% accurate and fast. Also low cost.
+So for the tax documents, we don't use any AI, only mining the PDFs, as these files are pretty standard and have text written in them. This is better than any AI model as this is 100% accurate and fast. Also low cost.
 
 ---
 
@@ -116,14 +116,19 @@ So for the tax documents we dont use any AI only mining the PDFs as these files 
 
 
 #### ID card strategy
-Here i went with google cloud document ai as it is fast and easy to use and very good, we can also scale up from here to check if ids are valid etc. We could also use Microsofts azure document intelligence as they have some edge soltions. Downside of this is that this is not on prem solution but its good and fast. Also it cost money.
+Here i went with Google Cloud document ai as it is fast and easy to use and very good, we can also scale up from here to check if IDs are valid and look for warning flags, etc. We could also use Microsofts azure document intelligence as they have some edge solutions.
+
+Positives
+- (Fast to deploy because I have it set up already from another project, only needed to create a new processor in GCP)
+- Good in accuracy
+
+Downsides
+- Not on prem
+- cost money
 
 
 #### Handwritten strategy
-I used GPT-4 Vision for handwritten note detection because traditional text extraction and rule-based methods are unreliable for distinguishing handwritten content from typed or printed text, especially in scanned or photographed documents. Handwriting can vary greatly in style, structure, and legibility, making it difficult to detect using only font or layout analysis.
-
-In summary, LLMS are good and fast to deploy for this task but can cost a bit and is not trained specifically for this task. you could train a model from scratch to classify this as not handwritten or handwritten.
-
+LLMS are good and fast to deploy for this task, but they can cost a bit and is not trained specifically for this task. You could train a model from scratch to classify this as handwritten or not handwritten.
 
 ---
 
@@ -154,8 +159,14 @@ The solution includes a comprehensive test suite (`test_server.py`) that:
 
 ### General notes
 
-- for the tax documents i like the solution, you can mix around with the details to make it better.
+- For the tax documents, I like the solution; you can mix around with the details to make it better.
 
-- for the ID card you can use a deeplearning model or mabye azure document intelligence api for ID to check if valid or not.
+- For the ID card, you can use a deep learning model or maybe the Azure Document intelligence api for ID to check if valid or not.
 
-- If i understood the assigment correctly the handwritten check is what we wanted and not to check if its a receipt or invoice etc.
+- If I understood the assignment correctly, the handwritten check is what we wanted and not to check if it's a receipt or invoice, etc.
+ 
+
+TODO:
+- [ ] Open a Vercel server and host it there, and add a rate limit
+- [ ] Rewrite the readme so it's much clearer and communicative
+- [ ] fix the prints in the notebook so it does not take 2 hours to scroll the GH repo.
