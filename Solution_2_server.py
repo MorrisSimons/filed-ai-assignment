@@ -3,11 +3,13 @@ import io
 import os
 import shutil
 import tempfile
+import time
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+from collections import defaultdict
 
 import fitz  # PyMuPDF
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, HTTPException, UploadFile, Depends, Request
 from fastapi.responses import JSONResponse
 from pdf2image import convert_from_path
 from PIL import Image
@@ -33,6 +35,36 @@ except ImportError:
     OPENAI_AVAILABLE = False
 
 app = FastAPI(title="Document Classification API", version="1.0.0")
+
+# Rate limiting configuration - 100 requests per day
+RATE_LIMIT_REQUESTS = 100
+RATE_LIMIT_WINDOW = 86400  # 24 hours in seconds
+
+# In-memory storage for rate limiting (use Redis in production)
+request_counts = defaultdict(list)
+
+def rate_limit_check(request: Request):
+    """Rate limiting middleware function"""
+    client_ip = request.client.host
+    current_time = time.time()
+    
+    # Clean old requests outside the window (older than 24 hours)
+    request_counts[client_ip] = [
+        req_time for req_time in request_counts[client_ip] 
+        if current_time - req_time < RATE_LIMIT_WINDOW
+    ]
+    
+    # Check if client has exceeded rate limit
+    if len(request_counts[client_ip]) >= RATE_LIMIT_REQUESTS:
+        raise HTTPException(
+            status_code=429, 
+            detail=f"Rate limit exceeded. Maximum {RATE_LIMIT_REQUESTS} requests per day."
+        )
+    
+    # Add current request
+    request_counts[client_ip].append(current_time)
+    
+    return True
 
 
 def extract_text_from_pdf(pdf_path: str) -> Tuple[List[Dict], List[Dict]]:
@@ -366,7 +398,11 @@ def classify_document(pdf_path: str) -> Tuple[str, Optional[str]]:
 
 
 @app.post("/classify")
-async def classify_document_endpoint(file: Optional[UploadFile] = File(None)):
+async def classify_document_endpoint(
+    request: Request,
+    file: Optional[UploadFile] = File(None),
+    rate_limit: bool = Depends(rate_limit_check)
+):
     """
     Endpoint to classify a document into document types and extract year
     """
@@ -406,7 +442,7 @@ async def classify_document_endpoint(file: Optional[UploadFile] = File(None)):
 
 
 @app.get("/")
-async def root():
+async def root(rate_limit: bool = Depends(rate_limit_check)):
     """Root endpoint with API information"""
     return {
         "message": "Document Classification API",
@@ -419,6 +455,8 @@ async def root():
             "1040", "W2", "1098", "1099", "ID Card", "Handwritten Notes", "OTHER"
         ]
     }
+
+
 
 
 if __name__ == "__main__":
