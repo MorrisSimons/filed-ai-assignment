@@ -5,3 +5,7 @@ testdata
 scratch
 
 *.envfiled-venv/
+
+gen-lang-client-0938401964-42c3d49b0210.json
+
+.vscode

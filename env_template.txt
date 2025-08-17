@@ -1,0 +1,11 @@
+# Google Cloud Document AI (Optional - for ID card detection)
+# GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/service-account-key.json
+# GOOGLE_CLOUD_PROJECT_ID=your-project-id
+# GOOGLE_CLOUD_LOCATION=us
+# GOOGLE_CLOUD_PROCESSOR_ID=your-processor-id
+
+# OpenAI API (Optional - for handwritten note detection)
+# OPENAI_API_KEY=your-openai-api-key
+
+# Note: These services are optional. The server will work without them,
+# but ID card and handwritten note detection will be limited.

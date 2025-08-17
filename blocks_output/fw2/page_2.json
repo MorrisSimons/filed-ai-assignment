@@ -1,0 +1,3981 @@
+{
+  "width": 612.0,
+  "height": 792.0,
+  "blocks": [
+    {
+      "number": 0,
+      "type": 0,
+      "bbox": [
+        36.0,
+        32.86799240112305,
+        183.28797912597656,
+        47.18399429321289
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 12.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Instructions for Employee",
+              "origin": [
+                36.0,
+                44.5679931640625
+              ],
+              "bbox": [
+                36.0,
+                32.86799240112305,
+                183.28797912597656,
+                47.18399429321289
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            32.86799240112305,
+            183.28797912597656,
+            47.18399429321289
+          ]
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "type": 0,
+      "bbox": [
+        36.0,
+        49.9119758605957,
+        296.9199523925781,
+        179.44802856445312
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "(See also ",
+              "origin": [
+                36.0,
+                57.71197509765625
+              ],
+              "bbox": [
+                36.0,
+                50.09597396850586,
+                70.95999908447266,
+                59.42397689819336
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 6,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-It",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9570000171661377,
+              "descender": -0.21400000154972076,
+              "text": "Notice to",
+              "origin": [
+                70.95999908447266,
+                57.71197509765625
+              ],
+              "bbox": [
+                70.95999908447266,
+                50.05597686767578,
+                103.55199432373047,
+                59.42397689819336
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                103.552001953125,
+                57.71197509765625
+              ],
+              "bbox": [
+                103.552001953125,
+                49.9119758605957,
+                105.7760009765625,
+                59.45597457885742
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 6,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-It",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9570000171661377,
+              "descender": -0.21400000154972076,
+              "text": "Employee ",
+              "origin": [
+                105.7760009765625,
+                57.71197509765625
+              ],
+              "bbox": [
+                105.7760009765625,
+                50.05597686767578,
+                143.2560272216797,
+                59.42397689819336
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "on the back of Copy B.)",
+              "origin": [
+                143.25599670410156,
+                57.71197509765625
+              ],
+              "bbox": [
+                143.25599670410156,
+                50.09597396850586,
+                228.0159912109375,
+                59.42397689819336
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            49.9119758605957,
+            228.0159912109375,
+            59.45597457885742
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 1. ",
+              "origin": [
+                36.0,
+                69.4639892578125
+              ],
+              "bbox": [
+                36.0,
+                61.66399002075195,
+                61.93600082397461,
+                71.20799255371094
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Enter this amount on the wages line of your tax return.",
+              "origin": [
+                61.93600082397461,
+                69.4639892578125
+              ],
+              "bbox": [
+                61.93600082397461,
+                61.84798812866211,
+                255.5999755859375,
+                71.17598724365234
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                255.60000610351562,
+                69.4639892578125
+              ],
+              "bbox": [
+                255.60000610351562,
+                61.66399002075195,
+                257.8240051269531,
+                71.20799255371094
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            61.66399002075195,
+            257.8240051269531,
+            71.20799255371094
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 2. ",
+              "origin": [
+                36.0,
+                81.21600341796875
+              ],
+              "bbox": [
+                36.0,
+                73.41600036621094,
+                61.93600082397461,
+                82.96000671386719
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Enter this amount on the federal income tax withheld",
+              "origin": [
+                61.93600082397461,
+                81.21600341796875
+              ],
+              "bbox": [
+                61.93600082397461,
+                73.60000610351562,
+                250.42401123046875,
+                82.9280014038086
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                250.4239959716797,
+                81.21600341796875
+              ],
+              "bbox": [
+                250.4239959716797,
+                73.41600036621094,
+                252.6479949951172,
+                82.96000671386719
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "line of your ",
+              "origin": [
+                252.6479949951172,
+                81.21600341796875
+              ],
+              "bbox": [
+                252.6479949951172,
+                73.60000610351562,
+                294.2799987792969,
+                82.9280014038086
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            73.41600036621094,
+            294.2799987792969,
+            82.96000671386719
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "tax return.",
+              "origin": [
+                36.0,
+                89.968017578125
+              ],
+              "bbox": [
+                36.0,
+                82.35202026367188,
+                72.44800567626953,
+                91.68001556396484
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            82.35202026367188,
+            72.44800567626953,
+            91.68001556396484
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 5. ",
+              "origin": [
+                36.0,
+                101.719970703125
+              ],
+              "bbox": [
+                36.0,
+                93.91996765136719,
+                61.93600082397461,
+                103.46397399902344
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "You may be required to report this amount on Form 8959. See ",
+              "origin": [
+                61.93600082397461,
+                101.719970703125
+              ],
+              "bbox": [
+                61.93600082397461,
+                94.10397338867188,
+                286.60797119140625,
+                103.43196868896484
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            93.91996765136719,
+            286.60797119140625,
+            103.46397399902344
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "the Form 1040 instructions to determine if you are required to complete ",
+              "origin": [
+                36.0,
+                110.47198486328125
+              ],
+              "bbox": [
+                36.0,
+                102.85598754882812,
+                293.4079895019531,
+                112.1839828491211
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            102.85598754882812,
+            293.4079895019531,
+            112.1839828491211
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Form 8959.",
+              "origin": [
+                36.0,
+                119.2239990234375
+              ],
+              "bbox": [
+                36.0,
+                111.60800170898438,
+                76.91199493408203,
+                120.93599700927734
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            111.60800170898438,
+            76.91199493408203,
+            120.93599700927734
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 6. ",
+              "origin": [
+                36.0,
+                130.97601318359375
+              ],
+              "bbox": [
+                36.0,
+                123.17601013183594,
+                61.93600082397461,
+                132.7200164794922
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "This amount includes the 1.45% Medicare tax withheld on all ",
+              "origin": [
+                61.93600082397461,
+                130.97601318359375
+              ],
+              "bbox": [
+                61.93600082397461,
+                123.36001586914062,
+                281.99200439453125,
+                132.68801879882812
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            123.17601013183594,
+            281.99200439453125,
+            132.7200164794922
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Medicare wages and tips shown in box 5, as well as the 0.9% Additional ",
+              "origin": [
+                36.0,
+                139.72802734375
+              ],
+              "bbox": [
+                36.0,
+                132.11203002929688,
+                296.9199523925781,
+                141.44003295898438
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            132.11203002929688,
+            296.9199523925781,
+            141.44003295898438
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Medicare Tax on any of those Medicare wages and tips above ",
+              "origin": [
+                36.0,
+                148.47998046875
+              ],
+              "bbox": [
+                36.0,
+                140.86398315429688,
+                260.4720458984375,
+                150.19198608398438
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            140.86398315429688,
+            260.4720458984375,
+            150.19198608398438
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "$200,000.",
+              "origin": [
+                36.0,
+                157.23199462890625
+              ],
+              "bbox": [
+                36.0,
+                149.61599731445312,
+                71.5840072631836,
+                158.94400024414062
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            149.61599731445312,
+            71.5840072631836,
+            158.94400024414062
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 8. ",
+              "origin": [
+                36.0,
+                168.9840087890625
+              ],
+              "bbox": [
+                36.0,
+                161.1840057373047,
+                61.93600082397461,
+                170.72801208496094
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "This amount is ",
+              "origin": [
+                61.93600082397461,
+                168.9840087890625
+              ],
+              "bbox": [
+                61.93600082397461,
+                161.36801147460938,
+                116.32798767089844,
+                170.69601440429688
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "not ",
+              "origin": [
+                116.3280029296875,
+                168.9840087890625
+              ],
+              "bbox": [
+                116.3280029296875,
+                161.1840057373047,
+                131.0,
+                170.72801208496094
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "included in box 1, 3, 5, or 7. For",
+              "origin": [
+                131.0,
+                168.9840087890625
+              ],
+              "bbox": [
+                131.0,
+                161.36801147460938,
+                244.81597900390625,
+                170.69601440429688
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                244.8159942626953,
+                168.9840087890625
+              ],
+              "bbox": [
+                244.8159942626953,
+                161.1840057373047,
+                247.0399932861328,
+                170.72801208496094
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "information ",
+              "origin": [
+                247.0399932861328,
+                168.9840087890625
+              ],
+              "bbox": [
+                247.0399932861328,
+                161.36801147460938,
+                289.5679931640625,
+                170.69601440429688
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            161.1840057373047,
+            289.5679931640625,
+            170.72801208496094
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "on how to report tips on your tax return, see the Form 1040 instructions.",
+              "origin": [
+                36.0,
+                177.73602294921875
+              ],
+              "bbox": [
+                36.0,
+                170.12002563476562,
+                293.68798828125,
+                179.44802856445312
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            170.12002563476562,
+            293.68798828125,
+            179.44802856445312
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "type": 0,
+      "bbox": [
+        36.0,
+        181.87197875976562,
+        296.3599853515625,
+        372.2400207519531
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "You must file Form 4137 with your income tax return to report at least ",
+              "origin": [
+                44.0,
+                189.48797607421875
+              ],
+              "bbox": [
+                44.0,
+                181.87197875976562,
+                294.8719482421875,
+                191.19998168945312
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            44.0,
+            181.87197875976562,
+            294.8719482421875,
+            191.19998168945312
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "the allocated tip amount unless you can prove with adequate records ",
+              "origin": [
+                36.0,
+                198.239990234375
+              ],
+              "bbox": [
+                36.0,
+                190.62399291992188,
+                285.5360107421875,
+                199.95199584960938
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            190.62399291992188,
+            285.5360107421875,
+            199.95199584960938
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "that you received a smaller amount. If you have records that show the ",
+              "origin": [
+                36.0,
+                206.99200439453125
+              ],
+              "bbox": [
+                36.0,
+                199.37600708007812,
+                287.31201171875,
+                208.70401000976562
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            199.37600708007812,
+            287.31201171875,
+            208.70401000976562
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "actual amount of tips you received, report that amount even if it is more ",
+              "origin": [
+                36.0,
+                215.7440185546875
+              ],
+              "bbox": [
+                36.0,
+                208.12802124023438,
+                293.55206298828125,
+                217.45602416992188
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            208.12802124023438,
+            293.55206298828125,
+            217.45602416992188
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "or less than the allocated tips. Use Form 4137 to figure the social ",
+              "origin": [
+                36.0,
+                224.4959716796875
+              ],
+              "bbox": [
+                36.0,
+                216.87997436523438,
+                270.86395263671875,
+                226.20797729492188
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            216.87997436523438,
+            270.86395263671875,
+            226.20797729492188
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "security and Medicare tax owed on tips you didn’t report to your ",
+              "origin": [
+                36.0,
+                233.24798583984375
+              ],
+              "bbox": [
+                36.0,
+                225.63198852539062,
+                268.0400085449219,
+                234.95999145507812
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            225.63198852539062,
+            268.0400085449219,
+            234.95999145507812
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "employer. Enter this amount on the wages line of your tax return. By ",
+              "origin": [
+                36.0,
+                242.0
+              ],
+              "bbox": [
+                36.0,
+                234.38400268554688,
+                281.23199462890625,
+                243.71200561523438
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            234.38400268554688,
+            281.23199462890625,
+            243.71200561523438
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "filing Form 4137, your social security tips will be credited to your social ",
+              "origin": [
+                36.0,
+                250.75201416015625
+              ],
+              "bbox": [
+                36.0,
+                243.13601684570312,
+                291.13604736328125,
+                252.46401977539062
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            243.13601684570312,
+            291.13604736328125,
+            252.46401977539062
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "security record (used to figure your benefits).",
+              "origin": [
+                36.0,
+                259.5040283203125
+              ],
+              "bbox": [
+                36.0,
+                251.88803100585938,
+                195.864013671875,
+                261.2160339355469
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            251.88803100585938,
+            195.864013671875,
+            261.2160339355469
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 10. ",
+              "origin": [
+                36.0,
+                271.2559814453125
+              ],
+              "bbox": [
+                36.0,
+                263.45599365234375,
+                66.38400268554688,
+                272.9999694824219
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "This amount includes the total dependent care benefits that",
+              "origin": [
+                66.38400268554688,
+                271.2559814453125
+              ],
+              "bbox": [
+                66.38400268554688,
+                263.6399841308594,
+                279.1920166015625,
+                272.9679870605469
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                279.1839904785156,
+                271.2559814453125
+              ],
+              "bbox": [
+                279.1839904785156,
+                263.45599365234375,
+                281.4079895019531,
+                272.9999694824219
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            263.45599365234375,
+            281.4079895019531,
+            272.9999694824219
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "your employer paid to you or incurred on your behalf (including",
+              "origin": [
+                36.0,
+                280.00799560546875
+              ],
+              "bbox": [
+                36.0,
+                272.3919982910156,
+                260.488037109375,
+                281.7200012207031
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                260.4800109863281,
+                280.00799560546875
+              ],
+              "bbox": [
+                260.4800109863281,
+                272.2080078125,
+                262.7040100097656,
+                281.7519836425781
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "amounts ",
+              "origin": [
+                262.7040100097656,
+                280.00799560546875
+              ],
+              "bbox": [
+                262.7040100097656,
+                272.3919982910156,
+                296.0559997558594,
+                281.7200012207031
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            272.2080078125,
+            296.0559997558594,
+            281.7519836425781
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "from a section 125 (cafeteria) plan). Any amount over",
+              "origin": [
+                36.0,
+                288.760009765625
+              ],
+              "bbox": [
+                36.0,
+                281.1440124511719,
+                224.63201904296875,
+                290.4720153808594
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                224.6320037841797,
+                288.760009765625
+              ],
+              "bbox": [
+                224.6320037841797,
+                280.96002197265625,
+                226.8560028076172,
+                290.5039978027344
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "your employer’s ",
+              "origin": [
+                226.8560028076172,
+                288.760009765625
+              ],
+              "bbox": [
+                226.8560028076172,
+                281.1440124511719,
+                286.42401123046875,
+                290.4720153808594
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            280.96002197265625,
+            286.42401123046875,
+            290.5039978027344
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "plan limit is also included in box 1. See Form 2441.",
+              "origin": [
+                36.0,
+                297.5119934082031
+              ],
+              "bbox": [
+                36.0,
+                289.89599609375,
+                217.98399353027344,
+                299.2239990234375
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            289.89599609375,
+            217.98399353027344,
+            299.2239990234375
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 11. ",
+              "origin": [
+                36.0,
+                309.2640075683594
+              ],
+              "bbox": [
+                36.0,
+                301.4640197753906,
+                66.38400268554688,
+                311.00799560546875
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "This amount is (a) reported in box 1 if it is a distribution",
+              "origin": [
+                66.38400268554688,
+                309.2640075683594
+              ],
+              "bbox": [
+                66.38400268554688,
+                301.64801025390625,
+                262.42401123046875,
+                310.97601318359375
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                262.4159851074219,
+                309.2640075683594
+              ],
+              "bbox": [
+                262.4159851074219,
+                301.4640197753906,
+                264.6399841308594,
+                311.00799560546875
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "made to ",
+              "origin": [
+                264.6400146484375,
+                309.2640075683594
+              ],
+              "bbox": [
+                264.6400146484375,
+                301.64801025390625,
+                296.3599853515625,
+                310.97601318359375
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            301.4640197753906,
+            296.3599853515625,
+            311.00799560546875
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "you from a nonqualified deferred compensation or nongovernmental ",
+              "origin": [
+                36.0,
+                318.0159912109375
+              ],
+              "bbox": [
+                36.0,
+                310.3999938964844,
+                281.6879577636719,
+                319.7279968261719
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            310.3999938964844,
+            281.6879577636719,
+            319.7279968261719
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "section 457(b) plan, or (b) included in box 3 and/or box 5 if it is a prior ",
+              "origin": [
+                36.0,
+                326.76800537109375
+              ],
+              "bbox": [
+                36.0,
+                319.1520080566406,
+                286.5679931640625,
+                328.4800109863281
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            319.1520080566406,
+            286.5679931640625,
+            328.4800109863281
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "year deferral under a nonqualified or section 457(b) plan that became ",
+              "origin": [
+                36.0,
+                335.5199890136719
+              ],
+              "bbox": [
+                36.0,
+                327.90399169921875,
+                284.6479797363281,
+                337.23199462890625
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            327.90399169921875,
+            284.6479797363281,
+            337.23199462890625
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "taxable for social security and Medicare taxes this year because there is ",
+              "origin": [
+                36.0,
+                344.2720031738281
+              ],
+              "bbox": [
+                36.0,
+                336.656005859375,
+                295.5760498046875,
+                345.9840087890625
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            336.656005859375,
+            295.5760498046875,
+            345.9840087890625
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "no longer a substantial risk of forfeiture of your right to the deferred ",
+              "origin": [
+                36.0,
+                353.02398681640625
+              ],
+              "bbox": [
+                36.0,
+                345.4079895019531,
+                278.095947265625,
+                354.7359924316406
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            345.4079895019531,
+            278.095947265625,
+            354.7359924316406
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "amount. This box shouldn’t be used if you had a deferral and a ",
+              "origin": [
+                36.0,
+                361.7760009765625
+              ],
+              "bbox": [
+                36.0,
+                354.1600036621094,
+                262.14404296875,
+                363.4880065917969
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            354.1600036621094,
+            262.14404296875,
+            363.4880065917969
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "distribution in the same calendar year. If you made a deferral and",
+              "origin": [
+                36.0,
+                370.52801513671875
+              ],
+              "bbox": [
+                36.0,
+                362.9120178222656,
+                268.20001220703125,
+                372.2400207519531
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            36.0,
+            362.9120178222656,
+            268.20001220703125,
+            372.2400207519531
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "type": 0,
+      "bbox": [
+        316.79998779296875,
+        34.15999984741211,
+        575.6559448242188,
+        142.75997924804688
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "received a distribution in the same calendar year, and you are or will be ",
+              "origin": [
+                316.79998779296875,
+                41.7760009765625
+              ],
+              "bbox": [
+                316.79998779296875,
+                34.15999984741211,
+                573.2798461914062,
+                43.48800277709961
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            34.15999984741211,
+            573.2798461914062,
+            43.48800277709961
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "age 62 by the end of the calendar year, your employer should file Form ",
+              "origin": [
+                316.79998779296875,
+                50.52801513671875
+              ],
+              "bbox": [
+                316.79998779296875,
+                42.91201400756836,
+                571.8237915039062,
+                52.24001693725586
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            42.91201400756836,
+            571.8237915039062,
+            52.24001693725586
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "SSA-131, Employer Report of Special Wage Payments, with the Social ",
+              "origin": [
+                316.79998779296875,
+                59.280029296875
+              ],
+              "bbox": [
+                316.79998779296875,
+                51.66402816772461,
+                571.0559692382812,
+                60.99203109741211
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            51.66402816772461,
+            571.0559692382812,
+            60.99203109741211
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Security Administration and give you a copy.",
+              "origin": [
+                316.79998779296875,
+                68.031982421875
+              ],
+              "bbox": [
+                316.79998779296875,
+                60.41598129272461,
+                476.2398681640625,
+                69.74398040771484
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            60.41598129272461,
+            476.2398681640625,
+            69.74398040771484
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Box 12. ",
+              "origin": [
+                316.79998779296875,
+                79.78399658203125
+              ],
+              "bbox": [
+                316.79998779296875,
+                71.98399353027344,
+                347.1839599609375,
+                81.52799987792969
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "The following list explains the codes shown in box 12. You may ",
+              "origin": [
+                347.1839904785156,
+                79.78399658203125
+              ],
+              "bbox": [
+                347.1839904785156,
+                72.16799926757812,
+                575.6559448242188,
+                81.4959945678711
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            71.98399353027344,
+            575.6559448242188,
+            81.52799987792969
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "need this information to complete your tax",
+              "origin": [
+                316.79998779296875,
+                88.5360107421875
+              ],
+              "bbox": [
+                316.79998779296875,
+                80.92001342773438,
+                468.0959167480469,
+                90.24800872802734
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                468.09600830078125,
+                88.5360107421875
+              ],
+              "bbox": [
+                468.09600830078125,
+                80.73600769042969,
+                470.32000732421875,
+                90.28001403808594
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "return. Elective deferrals ",
+              "origin": [
+                470.32000732421875,
+                88.5360107421875
+              ],
+              "bbox": [
+                470.32000732421875,
+                80.92001342773438,
+                559.2080688476562,
+                90.24800872802734
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            80.73600769042969,
+            559.2080688476562,
+            90.28001403808594
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "(codes D, E, F, and S) and designated",
+              "origin": [
+                316.79998779296875,
+                97.28802490234375
+              ],
+              "bbox": [
+                316.79998779296875,
+                89.67202758789062,
+                452.0958251953125,
+                99.0000228881836
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                452.09600830078125,
+                97.28802490234375
+              ],
+              "bbox": [
+                452.09600830078125,
+                89.48802185058594,
+                454.32000732421875,
+                99.03202819824219
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Roth contributions (codes AA, ",
+              "origin": [
+                454.32000732421875,
+                97.28802490234375
+              ],
+              "bbox": [
+                454.32000732421875,
+                89.67202758789062,
+                563.672119140625,
+                99.0000228881836
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            89.48802185058594,
+            563.672119140625,
+            99.03202819824219
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "BB, and EE) under all plans are generally limited to a total of $23,000 ",
+              "origin": [
+                316.79998779296875,
+                106.03997802734375
+              ],
+              "bbox": [
+                316.79998779296875,
+                98.42398071289062,
+                564.2637939453125,
+                107.7519760131836
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            98.42398071289062,
+            564.2637939453125,
+            107.7519760131836
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "($16,000 if you only have SIMPLE plans; $26,000 for section 403(b) ",
+              "origin": [
+                316.79998779296875,
+                114.7919921875
+              ],
+              "bbox": [
+                316.79998779296875,
+                107.17599487304688,
+                558.2160034179688,
+                116.50399017333984
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            107.17599487304688,
+            558.2160034179688,
+            116.50399017333984
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "plans if you qualify for the 15-year rule explained in Pub. 571). Deferrals ",
+              "origin": [
+                316.79998779296875,
+                123.54400634765625
+              ],
+              "bbox": [
+                316.79998779296875,
+                115.92800903320312,
+                573.8799438476562,
+                125.2560043334961
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            115.92800903320312,
+            573.8799438476562,
+            125.2560043334961
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "under code G are limited to $23,000. Deferrals under code H are limited ",
+              "origin": [
+                316.79998779296875,
+                132.2960205078125
+              ],
+              "bbox": [
+                316.79998779296875,
+                124.68002319335938,
+                574.7919311523438,
+                134.00802612304688
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            124.68002319335938,
+            574.7919311523438,
+            134.00802612304688
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "to $7,000.",
+              "origin": [
+                316.79998779296875,
+                141.0479736328125
+              ],
+              "bbox": [
+                316.79998779296875,
+                133.43197631835938,
+                352.823974609375,
+                142.75997924804688
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            133.43197631835938,
+            352.823974609375,
+            142.75997924804688
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "type": 0,
+      "bbox": [
+        316.79998779296875,
+        145.18399047851562,
+        577.4319458007812,
+        365.0879821777344
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "However, if you were at least age 50 in 2024, your employer may have ",
+              "origin": [
+                324.79998779296875,
+                152.79998779296875
+              ],
+              "bbox": [
+                324.79998779296875,
+                145.18399047851562,
+                577.4319458007812,
+                154.51199340820312
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            324.79998779296875,
+            145.18399047851562,
+            577.4319458007812,
+            154.51199340820312
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "allowed an additional deferral of up to $7,500 ($3,500 for section  ",
+              "origin": [
+                316.79998779296875,
+                161.552001953125
+              ],
+              "bbox": [
+                316.79998779296875,
+                153.93600463867188,
+                551.6638793945312,
+                163.26400756835938
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            153.93600463867188,
+            551.6638793945312,
+            163.26400756835938
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "401(k)(11) and 408(p) SIMPLE plans). This additional deferral amount is ",
+              "origin": [
+                316.79998779296875,
+                170.30401611328125
+              ],
+              "bbox": [
+                316.79998779296875,
+                162.68801879882812,
+                571.5357666015625,
+                172.01602172851562
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            162.68801879882812,
+            571.5357666015625,
+            172.01602172851562
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "not subject to the overall limit on elective deferrals. For code G, the limit ",
+              "origin": [
+                316.79998779296875,
+                179.0560302734375
+              ],
+              "bbox": [
+                316.79998779296875,
+                171.44003295898438,
+                575.6559448242188,
+                180.76803588867188
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            171.44003295898438,
+            575.6559448242188,
+            180.76803588867188
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "on elective deferrals may be higher for the last 3 years before you reach ",
+              "origin": [
+                316.79998779296875,
+                187.8079833984375
+              ],
+              "bbox": [
+                316.79998779296875,
+                180.19198608398438,
+                574.9039306640625,
+                189.51998901367188
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            180.19198608398438,
+            574.9039306640625,
+            189.51998901367188
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "retirement age. Contact your plan administrator for more information. ",
+              "origin": [
+                316.79998779296875,
+                196.55999755859375
+              ],
+              "bbox": [
+                316.79998779296875,
+                188.94400024414062,
+                565.5918579101562,
+                198.27200317382812
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            188.94400024414062,
+            565.5918579101562,
+            198.27200317382812
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Amounts in excess of the overall elective deferral limit must be included ",
+              "origin": [
+                316.79998779296875,
+                205.31201171875
+              ],
+              "bbox": [
+                316.79998779296875,
+                197.69601440429688,
+                574.7760009765625,
+                207.02401733398438
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            197.69601440429688,
+            574.7760009765625,
+            207.02401733398438
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "in income. See the Form 1040 instructions.",
+              "origin": [
+                316.79998779296875,
+                214.06402587890625
+              ],
+              "bbox": [
+                316.79998779296875,
+                206.44802856445312,
+                470.0399169921875,
+                215.77603149414062
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            206.44802856445312,
+            470.0399169921875,
+            215.77603149414062
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "Note: ",
+              "origin": [
+                316.79998779296875,
+                225.81597900390625
+              ],
+              "bbox": [
+                316.79998779296875,
+                218.01597595214844,
+                339.4720153808594,
+                227.5599822998047
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "If a year follows code D through H, S, Y, AA, BB, or EE, you",
+              "origin": [
+                339.47198486328125,
+                225.81597900390625
+              ],
+              "bbox": [
+                339.47198486328125,
+                218.19998168945312,
+                551.9279174804688,
+                227.52798461914062
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                551.927978515625,
+                225.81597900390625
+              ],
+              "bbox": [
+                551.927978515625,
+                218.01597595214844,
+                554.1519775390625,
+                227.5599822998047
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "made ",
+              "origin": [
+                554.1519775390625,
+                225.81597900390625
+              ],
+              "bbox": [
+                554.1519775390625,
+                218.19998168945312,
+                576.5360107421875,
+                227.52798461914062
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            218.01597595214844,
+            576.5360107421875,
+            227.5599822998047
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "a make-up pension contribution for a prior year(s) when",
+              "origin": [
+                316.79998779296875,
+                234.5679931640625
+              ],
+              "bbox": [
+                316.79998779296875,
+                226.95199584960938,
+                514.9038696289062,
+                236.27999877929688
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                514.9039916992188,
+                234.5679931640625
+              ],
+              "bbox": [
+                514.9039916992188,
+                226.7679901123047,
+                517.1279907226562,
+                236.31199645996094
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "you were in ",
+              "origin": [
+                517.1279907226562,
+                234.5679931640625
+              ],
+              "bbox": [
+                517.1279907226562,
+                226.95199584960938,
+                560.384033203125,
+                236.27999877929688
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            226.7679901123047,
+            560.384033203125,
+            236.31199645996094
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "military service. To figure whether you made excess",
+              "origin": [
+                316.79998779296875,
+                243.32000732421875
+              ],
+              "bbox": [
+                316.79998779296875,
+                235.70401000976562,
+                501.847900390625,
+                245.03201293945312
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                501.8479919433594,
+                243.32000732421875
+              ],
+              "bbox": [
+                501.8479919433594,
+                235.52000427246094,
+                504.0719909667969,
+                245.0640106201172
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "deferrals, consider ",
+              "origin": [
+                504.0719909667969,
+                243.32000732421875
+              ],
+              "bbox": [
+                504.0719909667969,
+                235.70401000976562,
+                572.6640625,
+                245.03201293945312
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            235.52000427246094,
+            572.6640625,
+            245.0640106201172
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "these amounts for the year shown, not the",
+              "origin": [
+                316.79998779296875,
+                252.072021484375
+              ],
+              "bbox": [
+                316.79998779296875,
+                244.45602416992188,
+                467.7998962402344,
+                253.78402709960938
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                467.79998779296875,
+                252.072021484375
+              ],
+              "bbox": [
+                467.79998779296875,
+                244.2720184326172,
+                470.02398681640625,
+                253.81602478027344
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "current year. If no year is ",
+              "origin": [
+                470.02398681640625,
+                252.072021484375
+              ],
+              "bbox": [
+                470.02398681640625,
+                244.45602416992188,
+                560.6959228515625,
+                253.78402709960938
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            244.2720184326172,
+            560.6959228515625,
+            253.81602478027344
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "shown, the contributions are for the",
+              "origin": [
+                316.79998779296875,
+                260.823974609375
+              ],
+              "bbox": [
+                316.79998779296875,
+                253.20797729492188,
+                443.92791748046875,
+                262.5359802246094
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                443.9280090332031,
+                260.823974609375
+              ],
+              "bbox": [
+                443.9280090332031,
+                253.0239715576172,
+                446.1520080566406,
+                262.5679626464844
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "current year.",
+              "origin": [
+                446.1520080566406,
+                260.823974609375
+              ],
+              "bbox": [
+                446.1520080566406,
+                253.20797729492188,
+                491.19195556640625,
+                262.5359802246094
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            253.0239715576172,
+            491.19195556640625,
+            262.5679626464844
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "A—",
+              "origin": [
+                316.79998779296875,
+                272.57598876953125
+              ],
+              "bbox": [
+                316.79998779296875,
+                264.7760009765625,
+                330.2799987792969,
+                274.3199768066406
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Uncollected social security or RRTA tax on tips. Include this",
+              "origin": [
+                330.2799987792969,
+                272.57598876953125
+              ],
+              "bbox": [
+                330.2799987792969,
+                264.9599914550781,
+                543.927978515625,
+                274.2879943847656
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                543.9199829101562,
+                272.57598876953125
+              ],
+              "bbox": [
+                543.9199829101562,
+                264.7760009765625,
+                546.1439819335938,
+                274.3199768066406
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "tax on ",
+              "origin": [
+                546.1439819335938,
+                272.57598876953125
+              ],
+              "bbox": [
+                546.1439819335938,
+                264.9599914550781,
+                570.5919799804688,
+                274.2879943847656
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            264.7760009765625,
+            570.5919799804688,
+            274.3199768066406
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Form 1040 or 1040-SR. See the Form 1040 instructions.",
+              "origin": [
+                316.79998779296875,
+                281.3280029296875
+              ],
+              "bbox": [
+                316.79998779296875,
+                273.7120056152344,
+                517.3199462890625,
+                283.0400085449219
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            273.7120056152344,
+            517.3199462890625,
+            283.0400085449219
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "B—",
+              "origin": [
+                316.79998779296875,
+                293.0799865722656
+              ],
+              "bbox": [
+                316.79998779296875,
+                285.2799987792969,
+                330.4319763183594,
+                294.823974609375
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Uncollected Medicare tax on tips. Include this tax on Form",
+              "origin": [
+                330.4320068359375,
+                293.0799865722656
+              ],
+              "bbox": [
+                330.4320068359375,
+                285.4639892578125,
+                539.3597412109375,
+                294.7919921875
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                539.3599853515625,
+                293.0799865722656
+              ],
+              "bbox": [
+                539.3599853515625,
+                285.2799987792969,
+                541.583984375,
+                294.823974609375
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "1040 or ",
+              "origin": [
+                541.583984375,
+                293.0799865722656
+              ],
+              "bbox": [
+                541.583984375,
+                285.4639892578125,
+                571.0799560546875,
+                294.7919921875
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            285.2799987792969,
+            571.0799560546875,
+            294.823974609375
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "1040-SR. See the Form 1040 instructions.",
+              "origin": [
+                316.79998779296875,
+                301.8320007324219
+              ],
+              "bbox": [
+                316.79998779296875,
+                294.21600341796875,
+                466.92791748046875,
+                303.54400634765625
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            294.21600341796875,
+            466.92791748046875,
+            303.54400634765625
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "C—",
+              "origin": [
+                316.79998779296875,
+                313.5840148925781
+              ],
+              "bbox": [
+                316.79998779296875,
+                305.7840270996094,
+                330.7279968261719,
+                315.3280029296875
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Taxable cost of group-term life insurance over $50,000",
+              "origin": [
+                330.7279968261719,
+                313.5840148925781
+              ],
+              "bbox": [
+                330.7279968261719,
+                305.968017578125,
+                526.615966796875,
+                315.2960205078125
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                526.6160278320312,
+                313.5840148925781
+              ],
+              "bbox": [
+                526.6160278320312,
+                305.7840270996094,
+                528.8400268554688,
+                315.3280029296875
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "(included in ",
+              "origin": [
+                528.8400268554688,
+                313.5840148925781
+              ],
+              "bbox": [
+                528.8400268554688,
+                305.968017578125,
+                572.1121215820312,
+                315.2960205078125
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            305.7840270996094,
+            572.1121215820312,
+            315.3280029296875
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "boxes 1, 3 (up to the social security wage base), and 5)",
+              "origin": [
+                316.79998779296875,
+                322.33599853515625
+              ],
+              "bbox": [
+                316.79998779296875,
+                314.7200012207031,
+                513.423828125,
+                324.0480041503906
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            314.7200012207031,
+            513.423828125,
+            324.0480041503906
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "D—",
+              "origin": [
+                316.79998779296875,
+                334.0880126953125
+              ],
+              "bbox": [
+                316.79998779296875,
+                326.28802490234375,
+                330.7279968261719,
+                335.8320007324219
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Elective deferrals to a section 401(k) cash or deferred",
+              "origin": [
+                330.7279968261719,
+                334.0880126953125
+              ],
+              "bbox": [
+                330.7279968261719,
+                326.4720153808594,
+                520.8158569335938,
+                335.8000183105469
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                520.8079833984375,
+                334.0880126953125
+              ],
+              "bbox": [
+                520.8079833984375,
+                326.28802490234375,
+                523.031982421875,
+                335.8320007324219
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "arrangement. ",
+              "origin": [
+                523.031982421875,
+                334.0880126953125
+              ],
+              "bbox": [
+                523.031982421875,
+                326.4720153808594,
+                572.8240356445312,
+                335.8000183105469
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            326.28802490234375,
+            572.8240356445312,
+            335.8320007324219
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Also includes deferrals under a SIMPLE retirement",
+              "origin": [
+                316.79998779296875,
+                342.8399963378906
+              ],
+              "bbox": [
+                316.79998779296875,
+                335.2239990234375,
+                496.5278015136719,
+                344.552001953125
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                496.52801513671875,
+                342.8399963378906
+              ],
+              "bbox": [
+                496.52801513671875,
+                335.0400085449219,
+                498.75201416015625,
+                344.583984375
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "account that is part ",
+              "origin": [
+                498.75201416015625,
+                342.8399963378906
+              ],
+              "bbox": [
+                498.75201416015625,
+                335.2239990234375,
+                570.328125,
+                344.552001953125
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            335.0400085449219,
+            570.328125,
+            344.583984375
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "of a section 401(k) arrangement.",
+              "origin": [
+                316.79998779296875,
+                351.5920104980469
+              ],
+              "bbox": [
+                316.79998779296875,
+                343.97601318359375,
+                432.0879211425781,
+                353.30401611328125
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            343.97601318359375,
+            432.0879211425781,
+            353.30401611328125
+          ]
+        },
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": "E—",
+              "origin": [
+                316.79998779296875,
+                363.343994140625
+              ],
+              "bbox": [
+                316.79998779296875,
+                355.54400634765625,
+                329.9839782714844,
+                365.0879821777344
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "Elective deferrals under a section 403(b) salary reduction",
+              "origin": [
+                329.9840087890625,
+                363.343994140625
+              ],
+              "bbox": [
+                329.9840087890625,
+                355.7279968261719,
+                532.3758544921875,
+                365.0559997558594
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 20,
+              "bidi": 0,
+              "char_flags": 24,
+              "font": "HelveticaNeueLTStd-Bd",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9750000238418579,
+              "descender": -0.21799999475479126,
+              "text": " ",
+              "origin": [
+                532.3679809570312,
+                363.343994140625
+              ],
+              "bbox": [
+                532.3679809570312,
+                355.54400634765625,
+                534.5919799804688,
+                365.0879821777344
+              ]
+            },
+            {
+              "size": 8.0,
+              "flags": 4,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-Roman",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9520000219345093,
+              "descender": -0.21400000154972076,
+              "text": "agreement",
+              "origin": [
+                534.5919799804688,
+                363.343994140625
+              ],
+              "bbox": [
+                534.5919799804688,
+                355.7279968261719,
+                572.8240356445312,
+                365.0559997558594
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            316.79998779296875,
+            355.54400634765625,
+            572.8240356445312,
+            365.0879821777344
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "type": 0,
+      "bbox": [
+        468.7200012207031,
+        367.44000244140625,
+        576.0,
+        376.8080139160156
+      ],
+      "lines": [
+        {
+          "spans": [
+            {
+              "size": 8.0,
+              "flags": 6,
+              "bidi": 0,
+              "char_flags": 16,
+              "font": "HelveticaNeueLTStd-It",
+              "color": 0,
+              "alpha": 255,
+              "ascender": 0.9570000171661377,
+              "descender": -0.21400000154972076,
+              "text": "(continued on back of Copy 2)",
+              "origin": [
+                468.7200012207031,
+                375.09600830078125
+              ],
+              "bbox": [
+                468.7200012207031,
+                367.44000244140625,
+                576.0,
+                376.8080139160156
+              ]
+            }
+          ],
+          "wmode": 0,
+          "dir": [
+            1.0,
+            0.0
+          ],
+          "bbox": [
+            468.7200012207031,
+            367.44000244140625,
+            576.0,
+            376.8080139160156
+          ]
+        }
+      ]
+    }
+  ]
+}
