@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Improved PDF Classifier with Better Year Extraction
-Uses box coordinates with margins for more robust year detection
+Fixed PDF Classifier with Simple Tolerance Approach
+Uses a single large tolerance value for more robust year detection
 """
 
 import os
@@ -67,9 +67,9 @@ def extract_text_from_pdf(pdf_path: str) -> List[Dict]:
     doc.close()
     return results, lines
 
-def analyze_form_content_improved(text_spans: List[Dict], lines: List[Dict]) -> Optional[str]:
+def analyze_form_content_fixed(text_spans: List[Dict], lines: List[Dict]) -> Optional[str]:
     """
-    Improved analyze_form_content function with better year extraction using box coordinates and margins
+    Fixed analyze_form_content function with simple tolerance approach
     """
     for line in lines:
         text = line["text"].strip()
@@ -86,14 +86,22 @@ def analyze_form_content_improved(text_spans: List[Dict], lines: List[Dict]) -> 
                     # The expected box for the year "24" is approximately:
                     # [437.46307373046875, 98.37499237060547, 444.1362609863281, 104.37500762939453]
                     year_bbox = [437.46, 98.37, 444.14, 104.38]
-                    # Add margin to make detection more robust (increased from 1.5 to 3.0)
-                    margin = 3.0
+                    
+                    # FIXED: Use a single large tolerance for all coordinates
+                    tolerance = 50  # Reduced tolerance to avoid matching unrelated text
+                    
+                    print(f"Looking for year in 1098 form with bbox: {year_bbox}")
+                    print(f"Using tolerance: {tolerance}")
                     
                     for l in lines:
                         for s in l.get("spans", []):
                             bbox = s.get("bbox", None)
-                            # First, check if bbox is available and matches the expected area with margin
-                            if bbox and all(abs(b - e) < margin for b, e in zip(bbox, year_bbox)):
+                            # Check if bbox is available and matches the expected area with large tolerance
+                            if bbox and all(abs(b - e) < tolerance for b, e in zip(bbox, year_bbox)):
+                                # Debug: Show what we found
+                                print(f"Found potential year text: '{s.get('text', '')}' at bbox: {bbox}")
+                                print(f"Font: {s.get('font_name', '')}, Size: {s.get('font_size', 0)}")
+                                
                                 # Now check if the text is a 2-digit year (e.g., "24", "21", "22"), font is Helvetica, and size is about 6
                                 text_val = s.get("text", "")
                                 if (
@@ -103,10 +111,11 @@ def analyze_form_content_improved(text_spans: List[Dict], lines: List[Dict]) -> 
                                 ):
                                     # Add millennium prefix
                                     year = "20" + text_val
+                                    print(f"Matched year: {year}")
                                     break
                         if year:
                             break
-                    print(f"this is the  Year: {year}")
+
                     return "1098", year
 
 
@@ -231,9 +240,9 @@ def analyze_form_content_improved(text_spans: List[Dict], lines: List[Dict]) -> 
     return None, None
 
 
-def classify_and_copy_pdfs_improved(samples_dir: str = "samples", output_base_dir: str = "classified_pdfs"):
+def classify_and_copy_pdfs_fixed(samples_dir: str = "samples", output_base_dir: str = "classified_pdfs"):
     """
-    Main function to classify PDFs and copy them to appropriate folders using improved year extraction
+    Main function to classify PDFs and copy them to appropriate folders using fixed year extraction
     """
     # Create output base directory
     os.makedirs(output_base_dir, exist_ok=True)
@@ -248,8 +257,8 @@ def classify_and_copy_pdfs_improved(samples_dir: str = "samples", output_base_di
                 # Extract text content
                 text_spans, lines = extract_text_from_pdf(pdf_path)
                 
-                # Analyze content to determine form type using improved function
-                document_type, year = analyze_form_content_improved(text_spans, lines)
+                # Analyze content to determine form type using fixed function
+                document_type, year = analyze_form_content_fixed(text_spans, lines)
                 
                 if document_type:
                     # Create form-specific directory
@@ -276,5 +285,5 @@ def classify_and_copy_pdfs_improved(samples_dir: str = "samples", output_base_di
 
 
 if __name__ == "__main__":
-    print("Testing improved year extraction with box coordinates and margins...")
-    classify_and_copy_pdfs_improved()
+    print("Testing fixed year extraction with simple tolerance approach...")
+    classify_and_copy_pdfs_fixed()
