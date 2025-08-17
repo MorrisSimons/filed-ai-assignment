@@ -13,7 +13,7 @@ def test_classification_endpoint():
     """Test the classification endpoint with sample PDFs"""
     
     # Server URL
-    base_url = "http://localhost:8000"
+    base_url = "https://filed.morrissimons.com/"
     
     # Test the root endpoint first
     try:

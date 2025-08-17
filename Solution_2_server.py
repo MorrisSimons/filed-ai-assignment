@@ -44,7 +44,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # Security and rate limiting configuration
-MAX_FILE_SIZE = 3 * 1024 * 1024  # 3MB file size limit
+MAX_FILE_SIZE = 4 * 1024 * 1024  # 4MB file size limit
 ALLOWED_MIME_TYPES = ["application/pdf"]
 RATE_LIMIT_REQUESTS = 100  # requests per 48 hours
 RATE_LIMIT_WINDOW = 172800  # 24 hours in seconds
