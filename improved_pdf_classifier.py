@@ -106,7 +106,7 @@ def analyze_form_content_improved(text_spans: List[Dict], lines: List[Dict]) -> 
                                     break
                         if year:
                             break
-
+                    print(f"this is the  Year: {year}")
                     return "1098", year
 
 
