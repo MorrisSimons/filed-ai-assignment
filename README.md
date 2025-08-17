@@ -112,7 +112,7 @@ I've implemented a comprehensive document classification system that combines mu
 4. Run `solution_2_server.py`.
 5. Run `test_server.py` to test the endpoints with sample PDFs.
 
-- (Optional) In the future, the app may be deployed to Vercel for public use.
+- (Optional) You can drop files here: https://filed.morrissimons.com/drop or use the api as https://filed.morrissimons.com
 
 ## Classification Methods
 
@@ -185,6 +185,6 @@ The solution includes a comprehensive test suite (`test_server.py`) that:
  
 
 TODO:
-- [ ] Open a Vercel server and host it there, and add a rate limit
-- [ ] Rewrite the readme so it's much clearer and communicative
+- [x] Open a Vercel server and host it there, and add a rate limit
+- [x] Rewrite the readme so it's much clearer and communicative
 - [x] fix the prints in the notebook so it does not take 2 hours to scroll the GH repo.
