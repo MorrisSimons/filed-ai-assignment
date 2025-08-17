@@ -333,18 +333,34 @@ def id_check(pdf_path: str) -> Optional[str]:
     try:
         # Get environment variables
         project_id = os.getenv("GOOGLE_CLOUD_PROJECT_ID")
-        location = os.getenv("GOOGLE_CLOUD_LOCATION")
+        location = os.getenv("GOOGLE_CLOUD_LOCATION", "us")
         processor_id = os.getenv("GOOGLE_CLOUD_PROCESSOR_ID")
         
-        if not all([project_id, location, processor_id]):
+        # Check if we have JSON credentials
+        credentials_json = os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON")
+        
+        if not project_id or not processor_id:
             print("Google Cloud Document AI credentials not configured")
             return None
         
         # Set `api_endpoint` if you use a location other than "us".
         opts = ClientOptions(api_endpoint=f"{location}-documentai.googleapis.com")
         
-        # Initialize Document AI client.
-        client = documentai_v1.DocumentProcessorServiceClient(client_options=opts)
+        # Initialize Document AI client with credentials if available
+        if credentials_json:
+            import json
+            from google.oauth2 import service_account
+            
+            # Parse the JSON credentials
+            credentials_info = json.loads(credentials_json)
+            credentials = service_account.Credentials.from_service_account_info(credentials_info)
+            client = documentai_v1.DocumentProcessorServiceClient(
+                credentials=credentials,
+                client_options=opts
+            )
+        else:
+            # Use default credentials
+            client = documentai_v1.DocumentProcessorServiceClient(client_options=opts)
         
         # Build request
         name = f"projects/{project_id}/locations/{location}/processors/{processor_id}"
