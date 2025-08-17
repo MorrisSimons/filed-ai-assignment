@@ -1,5 +1,6 @@
 import base64
 import io
+import json
 import os
 import shutil
 import tempfile
@@ -16,6 +17,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pdf2image import convert_from_path
 from PIL import Image
+import requests
 
 # Try to import optional dependencies
 try:
@@ -92,6 +94,54 @@ def validate_file_content(file_content: bytes, filename: str) -> bool:
             status_code=400, 
             detail=f"Error validating file content: {str(e)}"
         )
+
+
+def send_discord_notification(filename: str, document_type: str, year: Optional[str], file_size_mb: float, success: bool = True, error_msg: str = None):
+    """
+    Send a Discord webhook notification about document classification results
+    """
+    try:
+        webhook_url = os.getenv("DISCORDWEBHOOK")
+        if not webhook_url:
+            print("Discord webhook URL not configured")
+            return
+        
+        # Create the message content
+        if success:
+            color = 0x00ff00  # Green for success
+            title = "📄 Document Classified Successfully"
+            description = f"**File:** {filename}\n**Type:** {document_type}\n**Year:** {year if year else 'Not detected'}\n**Size:** {file_size_mb} MB"
+        else:
+            color = 0xff0000  # Red for error
+            title = "❌ Document Classification Failed"
+            description = f"**File:** {filename}\n**Error:** {error_msg}\n**Size:** {file_size_mb} MB"
+        
+        # Create Discord embed
+        embed = {
+            "title": title,
+            "description": description,
+            "color": color,
+            "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "footer": {
+                "text": "Document Classification API"
+            }
+        }
+        
+        # Send webhook with embed only
+        payload = {
+            "embeds": [embed]
+        }
+        
+        response = requests.post(webhook_url, json=payload, timeout=10)
+        
+        if response.status_code == 204:
+            print(f"Discord notification sent successfully for {filename}")
+        else:
+            print(f"Failed to send Discord notification: {response.status_code} - {response.text}")
+            
+    except Exception as e:
+        print(f"Error sending Discord notification: {str(e)}")
+
 
 def rate_limit_check(request: Request):
     """Rate limiting middleware function for general requests"""
@@ -534,12 +584,16 @@ async def classify_document_endpoint(
         # Clean up temporary file
         os.unlink(temp_path)
         
+        # Send Discord notification for successful classification
+        file_size_mb = round(len(file_content) / (1024 * 1024), 2)
+        send_discord_notification(file.filename, document_type, year, file_size_mb, success=True)
+        
         return {
             "document_type": document_type,
             "year": year,
             "filename": file.filename,
             "file_size_bytes": len(file_content),
-            "file_size_mb": round(len(file_content) / (1024 * 1024), 2)
+            "file_size_mb": file_size_mb
         }
         
     except HTTPException:
@@ -551,6 +605,10 @@ async def classify_document_endpoint(
                 os.unlink(temp_path)
             except:
                 pass
+        
+        # Send Discord notification for failed classification
+        file_size_mb = round(len(file_content) / (1024 * 1024), 2)
+        send_discord_notification(file.filename, "ERROR", None, file_size_mb, success=False, error_msg=str(e))
         
         raise HTTPException(status_code=500, detail=f"Error processing document: {str(e)}")
 
